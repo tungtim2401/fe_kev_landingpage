@@ -1,0 +1,54 @@
+{
+  "lang_vi": "Tiếng Việt",
+  "lang_en": "Tiếng Anh",
+  "lang_ja": "Tiếng Nhật",
+  "about": "Về chúng tôi",
+  "services": "Sản phẩm & Dịch vụ",
+  "projects": "Dự án",
+  "news": "Tin tức & Kiến thức",
+  "careers": "Trang thông tin tuyển dụng",
+  "contact": "Liên hệ",
+  "title1": "Giải Pháp <span class='text-primary'>Nhiệt & Áp Lực</span> Cho Công Nghiệp Nặng",
+  "desc1": "Chúng tôi cung cấp các hệ thống bồn áp lực và thiết bị trao đổi nhiệt hiệu suất cao cho các tập đoàn đa quốc gia và nhà máy quy mô lớn tại Việt Nam.",
+
+  "title2": "Thiết Kế & Chế Tạo <span class='text-primary'>Bồn Áp Lực</span> Chuyên Dụng",
+  "desc2": "Hệ thống bồn chứa LPG, bình tích áp và bồn hóa chất được chế tạo tỉ mỉ, đáp ứng các tiêu chuẩn an toàn khắt khe nhất của ngành dầu khí và hóa chất.",
+
+  "title3": "Tối Ưu Hóa <span class='text-primary'>Năng Lượng Nhiệt</span> Nhà Máy",
+  "desc3": "Giải pháp lò hơi và bộ trao đổi nhiệt giúp tiết kiệm đến 20% chi phí năng lượng cho các nhà máy dệt nhuộm, thực, phẩm và giấy.",
+
+  "serviceContent": "Với dây chuyền công nghệ hiện đại và đội ngũ kỹ sư giàu kinh nghiệm, chúng tôi cam kết mang đến những sản phẩm đạt chuẩn chất lượng khắt khe nhất.",
+  "service_1": "Bồn Áp Lực",
+  "desc_service_1": "Thiết kế và chế tạo bồn áp lực tiêu chuẩn ASME, đảm bảo an toàn tuyệt đối cho các hệ thống khí nén, LPG, và hóa chất.",
+
+  "service_2": "Hệ Thống Trao Đổi Nhiệt",
+  "desc_service_2": "Giải pháp tối ưu hóa nhiệt năng cho nhà máy giấy, thực phẩm và dệt nhuộm với hiệu suất truyền nhiệt vượt trội.",
+
+  "service_3": "Lắp Đặt Đường Ống Công Nghiệp",
+  "desc_service_3": "Thi công hệ thống đường ống áp lực cao, đường ống vi sinh cho các nhà máy dược phẩm và đồ uống.",
+
+  "service_4": "Bảo Trì & Nâng Cấp",
+  "desc_service_4": "Dịch vụ kiểm định, bảo trì định kỳ và cải tiến công nghệ cho các hệ thống nhiệt, áp suất hiện hữu.",
+  "product": "Sản Phẩm",
+  "product_desc": "Danh mục thiết bị áp lực và nhiệt năng được tin dùng bởi các nhà máy hàng đầu trong khu vực KCN Hiệp Phước, Amata, VSIP.",
+
+  "product_1": "Bình Tích Áp Cao Cấp",
+  "cate_product_1": "Bồn Áp Lực",
+  "specs_product_1_1": "Dung tích: 100L - 50,000L",
+  "specs_product_1_2": "Áp suất: Lên đến 100 Bar",
+
+  "product_2": "Bộ Trao Đổi Nhiệt Dạng Bản",
+  "cate_product_2": "Thiết Bị Nhiệt",
+  "specs_product_2_1": "Dung tích: 100L - 50,000L",
+  "specs_product_2_2": "Áp suất: Lên đến 100 Bar",
+
+  "product_3": "Hệ Thống Lò Hơi Tầng Sôi",
+  "cate_product_3": "Năng Lượng",
+  "specs_product_3_1": "Dung tích: 100L - 50,000L",
+  "specs_product_3_2": "Áp suất: Lên đến 100 Bar",
+
+  "product_4": "Bồn Chứa Hóa Chất Vi Sinh",
+  "cate_product_4": "Dược Phẩm",
+  "specs_product_4_1": "Dung tích: 100L - 50,000L",
+  "specs_product_4_2": "Áp suất: Lên đến 100 Bar"
+}

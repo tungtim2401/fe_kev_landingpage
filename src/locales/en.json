@@ -1,0 +1,54 @@
+{
+  "lang_vi": "Vietnamese",
+  "lang_en": "English",
+  "lang_ja": "Japanese",
+  "about": "About Us",
+  "services": "Products & Services",
+  "projects": "Projects",
+  "news": "News",
+  "careers": "Careers",
+  "contact": "Contact",
+  "title1": "Thermal & Pressure <span class='text-primary'>Solutions</span> for Heavy Industry",
+  "desc1": "We provide high-performance pressure vessel systems and heat exchangers for multinational corporations and large-scale factories in Vietnam.",
+
+  "title2": "Custom <span class='text-primary'>Pressure Vessel</span> Design & Fabrication",
+  "desc2": "LPG storage tanks, pressure vessels, and chemical tanks are meticulously engineered to meet the most stringent safety standards in the oil & gas and chemical industries.",
+
+  "title3": "Optimize <span class='text-primary'>Thermal Energy</span> in Factories",
+  "desc3": "Boiler and heat exchanger solutions help save up to 20% in energy costs for textile, food processing, and paper factories.",
+
+  "serviceContent": "With modern production lines and a team of highly experienced engineers, we are committed to delivering products that meet the most stringent quality standards.",
+  "service_1": "Pressure Vessels",
+  "desc_service_1": "Design and fabrication of ASME-standard pressure vessels, ensuring absolute safety for compressed air, LPG, and chemical systems.",
+
+  "service_2": "Heat Exchange Systems",
+  "desc_service_2": "Thermal optimization solutions for paper, food processing, and textile factories with superior heat transfer efficiency.",
+
+  "service_3": "Industrial Piping Installation",
+  "desc_service_3": "Construction of high-pressure piping systems and sanitary piping for pharmaceutical and beverage factories.",
+
+  "service_4": "Maintenance & Upgrades",
+  "desc_service_4": "Inspection, periodic maintenance, and technology upgrades for existing thermal and pressure systems.",
+  "product": "Products",
+  "product_desc": "A portfolio of pressure and thermal equipment trusted by leading factories in Hiệp Phước, Amata, and VSIP industrial zones.",
+
+  "product_1": "High-Quality Pressure Tank",
+  "cate_product_1": "Pressure Vessels",
+  "specs_product_1_1": "Capacity: 100L - 50,000L",
+  "specs_product_1_2": "Pressure: Up to 100 Bar",
+
+  "product_2": "Plate Heat Exchanger",
+  "cate_product_2": "Thermal Equipment",
+  "specs_product_2_1": "Capacity: 100L - 50,000L",
+  "specs_product_2_2": "Pressure: Up to 100 Bar",
+
+  "product_3": "Fluidized Bed Boiler System",
+  "cate_product_3": "Energy",
+  "specs_product_3_1": "Capacity: 100L - 50,000L",
+  "specs_product_3_2": "Pressure: Up to 100 Bar",
+
+  "product_4": "Biochemical Storage Tank",
+  "cate_product_4": "Pharmaceutical",
+  "specs_product_4_1": "Capacity: 100L - 50,000L",
+  "specs_product_4_2": "Pressure: Up to 100 Bar"
+}

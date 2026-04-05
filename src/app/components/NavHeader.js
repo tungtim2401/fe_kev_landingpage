@@ -1,3 +1,4 @@
+"use client";
 import { cn } from "@/lib/utils";
 import { Earth, Menu, X } from "lucide-react";
 import Image from "next/image";
@@ -15,7 +16,12 @@ const img_flag = {
   jp: "/images/japan.png",
 };
 
-export function NavHeader({ setIsMenuOpen, isMenuOpen, scrolled }) {
+export function NavHeader({
+  setIsMenuOpen,
+  isMenuOpen,
+  scrolled,
+  handleScroll,
+}) {
   const { t, i18n } = useTranslation();
 
   const items_lang = [
@@ -23,7 +29,7 @@ export function NavHeader({ setIsMenuOpen, isMenuOpen, scrolled }) {
       key: "vi",
       label: (
         <div className="flex gap-4">
-          <Image src={img_flag.vi} alt="" width={20} height={18} />
+          <Image src={img_flag.vi} alt="" width={22} height={18} />
           {t("lang_vi")}
         </div>
       ),
@@ -32,7 +38,7 @@ export function NavHeader({ setIsMenuOpen, isMenuOpen, scrolled }) {
       key: "en",
       label: (
         <div className="flex gap-4">
-          <Image src={img_flag.en} alt="" width={20} height={18} />
+          <Image src={img_flag.en} alt="" width={22} height={18} />
           {t("lang_en")}
         </div>
       ),
@@ -41,7 +47,7 @@ export function NavHeader({ setIsMenuOpen, isMenuOpen, scrolled }) {
       key: "jp",
       label: (
         <div className="flex gap-4">
-          <Image src={img_flag.jp} alt="" width={20} height={18} />
+          <Image src={img_flag.jp} alt="" width={22} height={18} />
           {t("lang_ja")}
         </div>
       ),
@@ -67,13 +73,11 @@ export function NavHeader({ setIsMenuOpen, isMenuOpen, scrolled }) {
   const handleClick = (e, id) => {
     e.preventDefault();
 
-  const element = document.getElementById(id);
+    const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
-
-
 
   return (
     <>
@@ -102,40 +106,45 @@ export function NavHeader({ setIsMenuOpen, isMenuOpen, scrolled }) {
               scrolled ? "text-gray-200" : "text-white/90",
             )}
           >
-            <div
+            <Link
               className="hover:text-primary transition-colors"
               href="#nav_header_1"
-              onClick={(e) => handleClick(e, "nav_header_1")}
+              onClick={() => handleScroll("nav_header_1")}
             >
               {t("nav_header_1")}
-            </div>
+            </Link>
             <Link
               className="hover:text-primary transition-colors"
               href="#nav_header_2"
+              onClick={() => handleScroll("nav_header_2")}
             >
               {t("nav_header_2")}
             </Link>
             <Link
               className="hover:text-primary transition-colors"
               href="#nav_header_3"
+              onClick={() => handleScroll("nav_header_3")}
             >
               {t("nav_header_3")}
             </Link>
             <Link
               className="hover:text-primary transition-colors"
               href="#nav_header_4"
+              onClick={() => handleScroll("nav_header_4")}
             >
               {t("nav_header_4")}
             </Link>
             <Link
               className="hover:text-primary transition-colors"
               href="#nav_header_5"
+              onClick={() => handleScroll("nav_header_5")}
             >
               {t("nav_header_5")}
             </Link>
             <Link
               href="#nav_header_6_highlight"
               className="px-5 py-2.5 bg-primary text-white rounded-full hover:bg-red-600 transition-all shadow-lg shadow-red-500/20"
+              onClick={() => handleScroll("nav_header_6_highlight")}
             >
               {t("nav_header_6_highlight")}
             </Link>

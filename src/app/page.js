@@ -12,11 +12,12 @@ import AboutSection from "./components/AboutSection";
 import CtaSection from "./components/CtaSection";
 import Footer from "./components/Footer";
 import LogoSlider from "./components/LogoSlider";
+import { useAnimate } from "framer-motion";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const targetRef = useRef(null);
+  const [scope, animate] = useAnimate();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -28,6 +29,23 @@ export default function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleScroll = (id) => {
+    console.log("🚀 ~ handleScroll ~ id:", id)
+    const target = document.getElementById(id);
+    if (target) {
+      // Lấy vị trí của phần tử so với top của trang
+      const targetPosition = target.offsetTop;
+
+      // Animate giá trị scroll của window
+      animate(window.scrollY, targetPosition, {
+        type: "spring",
+        stiffness: 100,
+        damping: 20,
+        onUpdate: (latest) => window.scrollTo(0, latest),
+      });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white font-sans text-industrial-blue selection:bg-primary selection:text-white">
       {/* Navigation */}
@@ -35,6 +53,7 @@ export default function App() {
         setIsMenuOpen={setIsMenuOpen}
         isMenuOpen={isMenuOpen}
         scrolled={scrolled}
+        handleScroll={handleScroll}
       />
 
       {/* Hero Section */}
@@ -48,7 +67,7 @@ export default function App() {
       {/* Stats Section */}
       <section
         className="py-20 bg-white border-b border-gray-100"
-       ref={targetRef}
+        id="nav_header_1"
       >
         <StatsSection />
       </section>

@@ -35,10 +35,10 @@ export default function ProductSection() {
     <div className="max-w-7xl mx-auto px-6">
       <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
         <div className="max-w-2xl">
-          <h2 className="font-display text-4xl font-bold mb-6">
+          <h2 className="font-display text-4xl font-bold mb-6 text-gray-200">
             {t("product")}
           </h2>
-          <p className="text-industrial-gray text-lg">{t("product_desc")}</p>
+          <p className="text-gray-300 text-lg">{t("product_desc")}</p>
         </div>
         {/* <button className="px-6 py-3 border-2 border-primary text-primary font-bold rounded-xl hover:bg-primary hover:text-white transition-all">
           Tải Toàn Bộ Catalog
@@ -67,14 +67,14 @@ export default function ProductSection() {
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-4 group-hover:text-primary transition-colors">
+              <h3 className="text-xl font-bold mb-4 group-hover:text-primary transition-colors text-gray-200">
                 {product.name}
               </h3>
-              <ul className="space-y-2 mb-6">
+              <ul className="space-y-2 mb-6 text-gray-300">
                 {product.specs.map((spec, sIdx) => (
                   <li
                     key={sIdx}
-                    className="text-sm text-industrial-gray flex items-center gap-2"
+                    className="text-sm text-gray-200 flex items-center gap-2"
                   >
                     <div className="w-1 h-1 bg-primary rounded-full" />
                     {spec}

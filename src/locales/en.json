@@ -2,20 +2,20 @@
   "lang_vi": "Vietnamese",
   "lang_en": "English",
   "lang_ja": "Japanese",
-  "about": "About Us",
-  "services": "Products & Services",
-  "projects": "Projects",
-  "news": "News",
-  "careers": "Careers",
-  "contact": "Contact",
-  "title1": "Thermal & Pressure <span class='text-primary'>Solutions</span> for Heavy Industry",
-  "desc1": "We provide high-performance pressure vessel systems and heat exchangers for multinational corporations and large-scale factories in Vietnam.",
+  "nav_header_1": "About Us",
+  "nav_header_2": "Products & Services",
+  "nav_header_3": "Projects",
+  "nav_header_4": "News",
+  "nav_header_5": "Careers",
+  "nav_header_6_highlight": "Contact",
+  "hero_title_1": "Thermal & Pressure <span class='text-primary'>Solutions</span> for Heavy Industry",
+  "hero_desc_1": "We provide high-performance pressure vessel systems and heat exchangers for multinational corporations and large-scale factories in Vietnam.",
 
-  "title2": "Custom <span class='text-primary'>Pressure Vessel</span> Design & Fabrication",
-  "desc2": "LPG storage tanks, pressure vessels, and chemical tanks are meticulously engineered to meet the most stringent safety standards in the oil & gas and chemical industries.",
+  "hero_title_2": "Custom <span class='text-primary'>Pressure Vessel</span> Design & Fabrication",
+  "hero_desc_2": "LPG storage tanks, pressure vessels, and chemical tanks are meticulously engineered to meet the most stringent safety standards in the oil & gas and chemical industries.",
 
-  "title3": "Optimize <span class='text-primary'>Thermal Energy</span> in Factories",
-  "desc3": "Boiler and heat exchanger solutions help save up to 20% in energy costs for textile, food processing, and paper factories.",
+  "hero_title_3": "Optimize <span class='text-primary'>Thermal Energy</span> in Factories",
+  "hero_desc_3": "Boiler and heat exchanger solutions help save up to 20% in energy costs for textile, food processing, and paper factories.",
 
   "serviceContent": "With modern production lines and a team of highly experienced engineers, we are committed to delivering products that meet the most stringent quality standards.",
   "service_1": "Pressure Vessels",
@@ -50,5 +50,33 @@
   "product_4": "Biochemical Storage Tank",
   "cate_product_4": "Pharmaceutical",
   "specs_product_4_1": "Capacity: 100L - 50,000L",
-  "specs_product_4_2": "Pressure: Up to 100 Bar"
+  "specs_product_4_2": "Pressure: Up to 100 Bar",
+
+  "process": "Professional Implementation Process",
+  "process_desc": "From concept to actual operation, we apply a strict 4-step quality control process.",
+
+  "process_1": "Survey & Consulting",
+  "desc_process_1": "Our engineers conduct on-site surveys, analyze requirements, and propose the most optimal technical solutions for businesses.",
+
+  "process_2": "Engineering Design",
+  "desc_process_2": "Our engineers conduct on-site surveys, analyze requirements, and propose the most optimal technical solutions for businesses.",
+
+  "process_3": "Fabrication & Inspection",
+  "desc_process_3": "Our engineers conduct on-site surveys, analyze requirements, and propose the most optimal technical solutions for businesses.",
+
+  "process_4": "Installation & Handover",
+  "desc_process_4": "Our engineers conduct on-site surveys, analyze requirements, and propose the most optimal technical solutions for businesses.",
+
+  "about_title": "Why Soltec?",
+  "about_content_1": "Customized designs tailored to the specific technical requirements of each industry",
+  "about_content_2": "Customized designs tailored to the specific technical requirements of each industry",
+  "about_content_3": "Customized designs tailored to the specific technical requirements of each industry",
+  "about_content_4": "Customized designs tailored to the specific technical requirements of each industry",
+
+  "footer_desc": "A leading company in Vietnam specializing in the design, fabrication, and installation of pressure vessel systems and industrial heat exchange equipment.",
+
+  "contact_title": "Contact for Consultation",
+  "contact_phone": "24/7 Hotline",
+  "contact_email": "Email",
+  "contact_address": "Address"
 }

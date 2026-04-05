@@ -33,10 +33,10 @@ export default function ServicesSection() {
     <>
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="font-display text-4xl font-bold mb-6">
-            {t("services")}
+          <h2 className="font-display text-4xl font-bold mb-6 text-gray-200">
+            {t("nav_header_2")}
           </h2>
-          <p className="text-industrial-gray text-lg">{t("serviceContent")}</p>
+          <p className="text-gray-300 text-lg">{t("serviceContent")}</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -47,8 +47,8 @@ export default function ServicesSection() {
               className="p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100"
             >
               <div className="mb-6">{service.icon}</div>
-              <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-              <p className="text-industrial-gray leading-relaxed mb-6">
+              <h3 className="text-xl font-bold mb-4 text-gray-200">{service.title}</h3>
+              <p className="text-gray-300 leading-relaxed mb-6">
                 {service.description}
               </p>
               <a

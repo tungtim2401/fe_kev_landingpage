@@ -1,6 +1,5 @@
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, ArrowRightCircle, Award, AwardIcon } from "lucide-react";
+import { motion } from "framer-motion";
+import {  Award } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import { useTranslation } from "react-i18next";
@@ -9,22 +8,22 @@ export function HeroSection() {
   const { t } = useTranslation();
   const heroSlides = [
     {
-      title: t("title1"),
-      desc: t("desc1"),
+      title: t("hero_title_1"),
+      desc: t("hero_desc_1"),
       image: "/images/preview.png",
-      tag: t("tag1"),
+      tag: t("hero_tag_1"),
     },
     {
-      title: t("title2"),
-      desc: t("desc2"),
+      title: t("hero_title_2"),
+      desc: t("hero_desc_2"),
       image: "/images/preview2.png",
-      tag: t("tag2"),
+      tag: t("hero_tag_2"),
     },
     {
-      title: t("title3"),
-      desc: t("desc3"),
+      title: t("hero_title_3"),
+      desc: t("hero_desc_3"),
       image: "/images/preview3.jpg",
-      tag: t("tag3"),
+      tag: t("hero_tag_3"),
     },
   ];
   return (

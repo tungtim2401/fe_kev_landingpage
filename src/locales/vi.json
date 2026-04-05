@@ -2,20 +2,20 @@
   "lang_vi": "Tiếng Việt",
   "lang_en": "Tiếng Anh",
   "lang_ja": "Tiếng Nhật",
-  "about": "Về chúng tôi",
-  "services": "Sản phẩm & Dịch vụ",
-  "projects": "Dự án",
-  "news": "Tin tức & Kiến thức",
-  "careers": "Trang thông tin tuyển dụng",
-  "contact": "Liên hệ",
-  "title1": "Giải Pháp <span class='text-primary'>Nhiệt & Áp Lực</span> Cho Công Nghiệp Nặng",
-  "desc1": "Chúng tôi cung cấp các hệ thống bồn áp lực và thiết bị trao đổi nhiệt hiệu suất cao cho các tập đoàn đa quốc gia và nhà máy quy mô lớn tại Việt Nam.",
+  "nav_header_1": "Về chúng tôi",
+  "nav_header_2": "Sản phẩm & Dịch vụ",
+  "nav_header_3": "Dự án",
+  "nav_header_4": "Tin tức & Kiến thức",
+  "nav_header_5": "Trang thông tin tuyển dụng",
+  "nav_header_6_highlight": "Liên hệ",
+  "hero_title_1": "Giải Pháp <span class='text-primary'>Nhiệt & Áp Lực</span> Cho Công Nghiệp Nặng",
+  "hero_desc_1": "Chúng tôi cung cấp các hệ thống bồn áp lực và thiết bị trao đổi nhiệt hiệu suất cao cho các tập đoàn đa quốc gia và nhà máy quy mô lớn tại Việt Nam.",
 
-  "title2": "Thiết Kế & Chế Tạo <span class='text-primary'>Bồn Áp Lực</span> Chuyên Dụng",
-  "desc2": "Hệ thống bồn chứa LPG, bình tích áp và bồn hóa chất được chế tạo tỉ mỉ, đáp ứng các tiêu chuẩn an toàn khắt khe nhất của ngành dầu khí và hóa chất.",
+  "hero_title_2": "Thiết Kế & Chế Tạo <span class='text-primary'>Bồn Áp Lực</span> Chuyên Dụng",
+  "hero_desc_2": "Hệ thống bồn chứa LPG, bình tích áp và bồn hóa chất được chế tạo tỉ mỉ, đáp ứng các tiêu chuẩn an toàn khắt khe nhất của ngành dầu khí và hóa chất.",
 
-  "title3": "Tối Ưu Hóa <span class='text-primary'>Năng Lượng Nhiệt</span> Nhà Máy",
-  "desc3": "Giải pháp lò hơi và bộ trao đổi nhiệt giúp tiết kiệm đến 20% chi phí năng lượng cho các nhà máy dệt nhuộm, thực, phẩm và giấy.",
+  "hero_title_3": "Tối Ưu Hóa <span class='text-primary'>Năng Lượng Nhiệt</span> Nhà Máy",
+  "hero_desc_3": "Giải pháp lò hơi và bộ trao đổi nhiệt giúp tiết kiệm đến 20% chi phí năng lượng cho các nhà máy dệt nhuộm, thực, phẩm và giấy.",
 
   "serviceContent": "Với dây chuyền công nghệ hiện đại và đội ngũ kỹ sư giàu kinh nghiệm, chúng tôi cam kết mang đến những sản phẩm đạt chuẩn chất lượng khắt khe nhất.",
   "service_1": "Bồn Áp Lực",
@@ -50,5 +50,33 @@
   "product_4": "Bồn Chứa Hóa Chất Vi Sinh",
   "cate_product_4": "Dược Phẩm",
   "specs_product_4_1": "Dung tích: 100L - 50,000L",
-  "specs_product_4_2": "Áp suất: Lên đến 100 Bar"
+  "specs_product_4_2": "Áp suất: Lên đến 100 Bar",
+
+  "process": "Quy Trình Triển Khai Chuyên Nghiệp",
+  "process_desc": "Từ ý tưởng đến vận hành thực tế, chúng tôi áp dụng quy trình kiểm soát chất lượng 4 bước nghiêm ngặt.",
+
+  "process_1": "Khảo Sát & Tư Vấn",
+  "desc_process_1": "Đội ngũ kỹ sư trực tiếp khảo sát hiện trường, phân tích nhu cầu và đưa ra giải pháp kỹ thuật tối ưu nhất cho doanh nghiệp.",
+
+  "process_2": "Thiết Kế Kỹ Thuật",
+  "desc_process_2": "Đội ngũ kỹ sư trực tiếp khảo sát hiện trường, phân tích nhu cầu và đưa ra giải pháp kỹ thuật tối ưu nhất cho doanh nghiệp.",
+
+  "process_3": "Chế Tạo & Kiểm Định",
+  "desc_process_3": "Đội ngũ kỹ sư trực tiếp khảo sát hiện trường, phân tích nhu cầu và đưa ra giải pháp kỹ thuật tối ưu nhất cho doanh nghiệp.",
+
+  "process_4": "Lắp Đặt & Bàn Giao",
+  "desc_process_4": "Đội ngũ kỹ sư trực tiếp khảo sát hiện trường, phân tích nhu cầu và đưa ra giải pháp kỹ thuật tối ưu nhất cho doanh nghiệp.",
+
+  "about_title": "Vì sao chọn Soltec?",
+  "about_content_1": "Thiết kế theo yêu cầu kỹ thuật đặc thù của từng ngành",
+  "about_content_2": "Thiết kế theo yêu cầu kỹ thuật đặc thù của từng ngành",
+  "about_content_3": "Thiết kế theo yêu cầu kỹ thuật đặc thù của từng ngành",
+  "about_content_4": "Thiết kế theo yêu cầu kỹ thuật đặc thù của từng ngành",
+
+  "footer_desc": "Đơn vị hàng đầu trong lĩnh vực thiết kế, chế tạo và lắp đặt hệ thống bồn áp lực, thiết bị trao đổi nhiệt công nghiệp tại Việt Nam.",
+
+  "contact_title": "Liên Hệ Tư Vấn",
+  "contact_phone": "Hotline 24/7",
+  "contact_email": "Email",
+  "contact_address": "Địa chỉ"
 }

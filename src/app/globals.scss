@@ -22,8 +22,8 @@
   --color-secondary: #1f5fa8;
   --color-accent: #facc15;
 
-  --color-gray-100: #f5f5f5;
-  --color-gray-200: #e5e5e5;
+  --color-gray-300: #6D7078;
+  --color-gray-200: #4B4E57;
 }
 
 @theme inline {
@@ -87,4 +87,12 @@ body {
   &:hover img {
     transform: scale(1.1);
   }
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+html {
+  scroll-behavior: auto; /* tắt default để tránh conflict */
 }

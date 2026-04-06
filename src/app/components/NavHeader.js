@@ -92,7 +92,7 @@ export function NavHeader({
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Image
-              src="/images/logo-cut.png"
+              src="/images/new_logo.png"
               alt="Hero"
               width={100}
               height={50}
@@ -143,7 +143,7 @@ export function NavHeader({
             </Link>
             <Link
               href="#nav_header_6_highlight"
-              className="px-5 py-2.5 bg-primary text-white rounded-full hover:bg-red-600 transition-all shadow-lg shadow-red-500/20"
+              className="px-5 py-2.5 bg-primary text-white rounded-full hover:bg-red-600 transition-all"
               onClick={() => handleScroll("nav_header_6_highlight")}
             >
               {t("nav_header_6_highlight")}

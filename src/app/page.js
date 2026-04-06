@@ -13,6 +13,7 @@ import CtaSection from "./components/CtaSection";
 import Footer from "./components/Footer";
 import LogoSlider from "./components/LogoSlider";
 import { useAnimate } from "framer-motion";
+import EmployeesSection from "./components/EmployeesSection";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +31,6 @@ export default function App() {
   }, []);
 
   const handleScroll = (id) => {
-    console.log("🚀 ~ handleScroll ~ id:", id)
     const target = document.getElementById(id);
     if (target) {
       // Lấy vị trí của phần tử so với top của trang
@@ -77,6 +77,9 @@ export default function App() {
         <ServicesSection />
       </section>
 
+      <LogoSlider />
+
+
       {/* Product Gallery Section */}
       <section id="nav_header_3" className="py-24 bg-white">
         <ProductSection />
@@ -94,6 +97,9 @@ export default function App() {
       <section id="nav_header_5" className="py-24 overflow-hidden">
         <AboutSection />
       </section>
+      <section id="nav_header_6">
+        <EmployeesSection />
+      </section>
       {/* CTA Section */}
       <section
         id="nav_header_6_highlight"
@@ -101,7 +107,6 @@ export default function App() {
       >
         <CtaSection />
       </section>
-      <LogoSlider />
 
       {/* Footer */}
       <Footer />

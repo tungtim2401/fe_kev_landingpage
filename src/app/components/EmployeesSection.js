@@ -15,7 +15,7 @@ export default function EmployeesSection() {
               viewport={{ once: true }}
               className="relative"
             >
-              <div className="absolute -top-12 -left-8 text-accent-orange/10">
+              <div className="absolute -top-12 -left-8 text-primary/10">
                 <svg
                   width="120"
                   height="100"
@@ -25,14 +25,14 @@ export default function EmployeesSection() {
                   <path d="M30 0C13.4315 0 0 13.4315 0 30V100H50V30C50 13.4315 36.5685 0 30 0ZM100 0C83.4315 0 70 13.4315 70 30V100H120V30C120 13.4315 106.569 0 100 0Z" />
                 </svg>
               </div>
-              <h3 className="font-display text-2xl font-bold text-industrial-blue mb-4">
+              <h3 className="font-display text-2xl font-bold text-gray-200 mb-4">
                 {t("ceo_title_small")}
               </h3>
-              <h2 className="font-display text-4xl md:text-5xl font-bold text-industrial-blue mb-8 leading-tight">
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-200 mb-8 leading-tight">
                 <Trans
                   i18nKey="ceo_title_big"
                   components={{
-                    highlight: <span className="text-accent-orange" />,
+                    highlight: <span className="text-primary" />,
                   }}
                 />
               </h2>
@@ -40,7 +40,7 @@ export default function EmployeesSection() {
                 {t("ceo_desc")}
               </p>
               <div>
-                <div className="font-bold text-xl text-industrial-blue">
+                <div className="font-bold text-xl text-gray-200">
                   {t("ceo_name")}
                 </div>
                 <div className="text-industrial-gray font-medium">
@@ -62,7 +62,7 @@ export default function EmployeesSection() {
                   referrerPolicy="no-referrer"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent-orange/10 rounded-full blur-3xl" />
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
             </motion.div>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function EmployeesSection() {
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute inset-0 bg-gradient-to-tr from-accent-orange/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent" />
               </div>
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl" />
             </motion.div>
@@ -93,7 +93,7 @@ export default function EmployeesSection() {
               viewport={{ once: true }}
               className="order-1 md:order-2"
             >
-              <h2 className="font-display text-4xl md:text-5xl font-bold text-industrial-blue mb-8 leading-tight">
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-200 mb-8 leading-tight">
                 {t("team_title")}
               </h2>
               <p className="text-industrial-gray text-lg leading-relaxed mb-6">

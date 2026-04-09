@@ -48,7 +48,7 @@ export function HeroSection() {
                 className="w-full h-full object-cover opacity-80 scale-105"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-industrial-blue via-industrial-blue/60 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/20 to-transparent" />
             </div>
 
             <div className="relative z-10 h-full max-w-7xl mx-auto px-6 flex items-center">
@@ -63,10 +63,10 @@ export function HeroSection() {
                     <span>{slide.tag}</span>
                   </div>
                   <h1
-                    className="font-display text-5xl md:text-7xl font-bold text-white leading-[1.1] mb-6"
+                    className="font-display text-5xl md:text-7xl font-bold text-gray-200 leading-[1.1] mb-6"
                     dangerouslySetInnerHTML={{ __html: slide.title }}
                   />
-                  <p className="text-lg text-white/70 mb-10 max-w-lg leading-relaxed">
+                  <p className="text-lg text-gray-200 mb-10 max-w-lg leading-relaxed">
                     {slide.desc}
                   </p>
                   {/* <div className="flex flex-wrap gap-4">

@@ -1,17 +1,32 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, FreeMode } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
 
 const logos = [
-  "/images/logo.jpg",
-  "/images/logo.jpg",
-  "/images/logo.jpg",
-  "/images/logo.jpg",
-  "/images/logo.jpg",
-  "/images/logo.jpg",
+  "/logo_partner/AGS.png",
+  "/logo_partner/Ajinomoto.png",
+  "/logo_partner/asahi chemical.png",
+  "/logo_partner/asahi.png",
+  "/logo_partner/ASC.png",
+  "/logo_partner/Denka.png",
+  "/logo_partner/idemitsu.png",
+  "/logo_partner/JGC.png",
+  "/logo_partner/KH neochem.png",
+  "/logo_partner/kobe steel.png",
+  "/logo_partner/kobelco.png",
+  "/logo_partner/mitsubishi.png",
+  "/logo_partner/mitsui chemicals.png",
+  "/logo_partner/Nippon Steel.png",
+  "/logo_partner/sumitomo Chemical.png",
+  "/logo_partner/toshiba.png",
+  "/logo_partner/TPC Vina.png",
+  "/logo_partner/TVC.png",
+  "/logo_partner/VEDAN.png",
+  "/logo_partner/Vina corp.png",
+  "/logo_partner/VREC.png",
 ];
 
 export default function LogoSlider() {

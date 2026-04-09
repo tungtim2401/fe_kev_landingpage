@@ -10,22 +10,22 @@ export default function ServicesSection() {
     {
       title: t("service_1"),
       description: t("desc_service_1"),
-      icon: <ShieldCheck className="w-8 h-8 text-accent-orange" />,
+      icon: <ShieldCheck className="w-8 h-8 text-primary" />,
     },
     {
       title: t("service_2"),
       description: t("desc_service_2"),
-      icon: <Thermometer className="w-8 h-8 text-accent-orange" />,
+      icon: <Thermometer className="w-8 h-8 text-primary" />,
     },
     {
       title: t("service_3"),
       description: t("desc_service_3"),
-      icon: <Settings className="w-8 h-8 text-accent-orange" />,
+      icon: <Settings className="w-8 h-8 text-primary" />,
     },
     {
       title: t("service_4"),
       description: t("desc_service_4"),
-      icon: <Factory className="w-8 h-8 text-accent-orange" />,
+      icon: <Factory className="w-8 h-8 text-primary" />,
     },
   ];
 
@@ -44,10 +44,10 @@ export default function ServicesSection() {
             <motion.div
               key={idx}
               whileHover={{ y: -10 }}
-              className="p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100"
+              className="text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100"
             >
-              <div className="mb-6">{service.icon}</div>
-              <h3 className="text-xl font-bold mb-4 text-gray-200">{service.title}</h3>
+              <div className="mb-2">{service.icon}</div>
+              <h3 className="text-xl font-bold mb-4 text-gray-200 ">{service.title}</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 {service.description}
               </p>

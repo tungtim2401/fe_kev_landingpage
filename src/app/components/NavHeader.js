@@ -1,11 +1,11 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { Earth, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { useEffect, useState, useTransition } from "react";
-import { Button, Dropdown } from "antd";
+import { Dropdown } from "antd";
 import { useTranslation } from "react-i18next";
 import { GlobalOutlined } from "@ant-design/icons";
 import Link from "next/link";
@@ -66,35 +66,27 @@ export function NavHeader({
   useEffect(() => {
     const lang = localStorage.getItem("lng");
     if (lang) {
+      setLang(lang);
       i18n.changeLanguage(lang);
     }
   }, []);
-
-  const handleClick = (e, id) => {
-    e.preventDefault();
-
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <>
       <nav
         className={cn(
-          "fixed top-0 w-full z-50 transition-all duration-300 px-6 py-4",
+          "fixed top-0 w-full z-50 transition-all duration-300 px-8 py-4",
           scrolled
             ? "bg-white/90 backdrop-blur-md shadow-sm py-3"
             : "bg-transparent",
         )}
       >
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Image
-              src="/images/new_logo.png"
+              src="/images/logo_new.png"
               alt="Hero"
-              width={100}
+              width={300}
               height={50}
             />
           </div>
@@ -107,35 +99,35 @@ export function NavHeader({
             )}
           >
             <Link
-              className="hover:text-primary transition-colors"
+              className="hover:text-primary transition-colors text-[18px]"
               href="#nav_header_1"
               onClick={() => handleScroll("nav_header_1")}
             >
               {t("nav_header_1")}
             </Link>
             <Link
-              className="hover:text-primary transition-colors"
+              className="hover:text-primary transition-colors text-[18px]"
               href="#nav_header_2"
               onClick={() => handleScroll("nav_header_2")}
             >
               {t("nav_header_2")}
             </Link>
             <Link
-              className="hover:text-primary transition-colors"
+              className="hover:text-primary transition-colors text-[18px]"
               href="#nav_header_3"
               onClick={() => handleScroll("nav_header_3")}
             >
               {t("nav_header_3")}
             </Link>
             <Link
-              className="hover:text-primary transition-colors"
+              className="hover:text-primary transition-colors text-[18px]"
               href="#nav_header_4"
               onClick={() => handleScroll("nav_header_4")}
             >
               {t("nav_header_4")}
             </Link>
             <Link
-              className="hover:text-primary transition-colors"
+              className="hover:text-primary transition-colors text-[18px]"
               href="#nav_header_5"
               onClick={() => handleScroll("nav_header_5")}
             >
@@ -148,21 +140,21 @@ export function NavHeader({
             >
               {t("nav_header_6_highlight")}
             </Link>
-          </div>
-          <Dropdown
-            menu={{ items: items_lang, onClick: onChangeLang }}
-            placement="bottom"
-          >
-            <div
-              className={cn(
-                "flex gap-2 items-center justify-center hover:text-primary",
-                scrolled ? "industrial-gray" : "text-white/90",
-              )}
+            <Dropdown
+              menu={{ items: items_lang, onClick: onChangeLang }}
+              placement="bottom"
             >
-              <GlobalOutlined />
-              {t(`${lang.toLocaleUpperCase()}`)}
-            </div>
-          </Dropdown>
+              <div
+                className={cn(
+                  "flex gap-2 items-center justify-center hover:text-primary",
+                  scrolled ? "industrial-gray" : "text-white/90",
+                )}
+              >
+                <GlobalOutlined />
+                {t(`${lang.toLocaleUpperCase()}`)}
+              </div>
+            </Dropdown>
+          </div>
 
           {/* Mobile Toggle */}
           <button
@@ -202,7 +194,7 @@ export function NavHeader({
               className="text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
-              {t("nav_header_6")}
+              {t("nav_header_6_highlight")}
             </a>
           </motion.div>
         )}

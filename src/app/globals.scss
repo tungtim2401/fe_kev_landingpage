@@ -2,13 +2,19 @@
 @import "../styles/home.scss";
 
 @font-face {
-  font-family: "Inter";
-  src: url("/fonts/Inter-Regular.woff2") format("woff2");
+  font-family: "Noto Sans JP Custom";
+  src: url("/fonts/NotoSansJP-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; 
 }
 
 @font-face {
-  font-family: "Playfair";
-  src: url("/fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+  font-family: "Noto Sans JP Custom";
+  src: url("/fonts/NotoSansJP-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -35,14 +41,14 @@
 }
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Space Grotesk", sans-serif;
+  /* Gán font custom của bạn vào biến font của Tailwind */
+  --font-sans: "Noto Sans JP Custom", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Noto Sans JP Custom", sans-serif; 
   
   --color-industrial-blue: #0f172a;
   --color-industrial-gray: #334155;
   --color-accent-orange: #f97316;
 }
-
 
 @media (prefers-color-scheme: dark) {
   :root {

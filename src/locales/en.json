@@ -79,13 +79,15 @@
   "contact_phone": "24/7 Hotline",
   "contact_email": "Email",
   "contact_address": "Address",
-   "ceo_title_small": "Our Commitment",
-    "ceo_title_big": "Delivering World-Class <highlight>Products & Services</highlight>",
-    "ceo_desc": "Our goal is to deliver world-class products and services that exceed customer expectations in every possible way. We take pride in providing innovative solutions that help our clients achieve their goals. We never compromise on quality and leverage the latest technologies and best practices to ensure our products and services meet the highest standards.",
-    "ceo_name": "Nguyen The Quang",
-    "ceo_position": "CEO, IndusPro",
+  "ceo_title_small": "Our Commitment",
+  "ceo_title_big": "Delivering World-Class <highlight>Products & Services</highlight>",
+  "ceo_desc": "Our goal is to deliver world-class products and services that exceed customer expectations in every possible way. We take pride in providing innovative solutions that help our clients achieve their goals. We never compromise on quality and leverage the latest technologies and best practices to ensure our products and services meet the highest standards.",
+  "ceo_name": "Nguyen The Quang",
+  "ceo_position": "CEO, IndusPro",
 
-    "team_title": "Join Our Team",
-    "team_desc_1": "IndusPro is home to young tech talents, building a strong \"One-team\" culture and empowering them to reach international markets.",
-    "team_desc_2": "Everything we do revolves around people. We help our employees \"find their spark\" by giving them the freedom and flexibility to grow, while fostering an open, collaborative, and diverse environment at IndusPro."
+  "team_title": "Join Our Team",
+  "team_desc_1": "IndusPro is home to young tech talents, building a strong \"One-team\" culture and empowering them to reach international markets.",
+  "team_desc_2": "Everything we do revolves around people. We help our employees \"find their spark\" by giving them the freedom and flexibility to grow, while fostering an open, collaborative, and diverse environment at IndusPro.",
+  "show_less": "Show Less",
+  "view_all": "View All"
 }

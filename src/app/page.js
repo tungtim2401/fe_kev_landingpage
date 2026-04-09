@@ -79,18 +79,17 @@ export default function App() {
 
       <LogoSlider />
 
-
-      {/* Product Gallery Section */}
-      <section id="nav_header_3" className="py-24 bg-white">
-        <ProductSection />
-      </section>
-
       {/* Process Section */}
       <section
         id="nav_header_4"
         className="py-24 bg-industrial-blue text-white overflow-hidden"
       >
         <ProcessSection />
+      </section>
+      
+      {/* Product Gallery Section */}
+      <section id="nav_header_3" className="py-24 bg-white">
+        <ProductSection />
       </section>
 
       {/* About Section */}

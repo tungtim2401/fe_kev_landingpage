@@ -8,25 +8,25 @@ import "swiper/css";
 const logos = [
   "/logo_partner/AGS.png",
   "/logo_partner/Ajinomoto.png",
-  "/logo_partner/asahi chemical.png",
-  "/logo_partner/asahi.png",
-  "/logo_partner/ASC.png",
-  "/logo_partner/Denka.png",
-  "/logo_partner/idemitsu.png",
-  "/logo_partner/JGC.png",
-  "/logo_partner/KH neochem.png",
-  "/logo_partner/kobe steel.png",
-  "/logo_partner/kobelco.png",
-  "/logo_partner/mitsubishi.png",
-  "/logo_partner/mitsui chemicals.png",
-  "/logo_partner/Nippon Steel.png",
-  "/logo_partner/sumitomo Chemical.png",
-  "/logo_partner/toshiba.png",
-  "/logo_partner/TPC Vina.png",
-  "/logo_partner/TVC.png",
-  "/logo_partner/VEDAN.png",
-  "/logo_partner/Vina corp.png",
-  "/logo_partner/VREC.png",
+  "/logo_partner/asahi_chemical.png",
+  "/logo_partner/asahi-removebg-preview.png",
+  "/logo_partner/ASC-removebg-preview.png",
+  "/logo_partner/Denka-removebg-preview.png",
+  "/logo_partner/idemitsu-removebg-preview.png",
+  "/logo_partner/JGC-removebg-preview.png",
+  "/logo_partner/KH_neochem-removebg-preview.png",
+  "/logo_partner/kobe_steel-removebg-preview.png",
+  "/logo_partner/kobelco-removebg-preview.png",
+  "/logo_partner/mitsubishi-removebg-preview.png",
+  "/logo_partner/mitsui_chemicals-removebg-preview.png",
+  "/logo_partner/Nippon_Steel-removebg-preview.png",
+  "/logo_partner/sumitomo_Chemical-removebg-preview.png",
+  "/logo_partner/toshiba-removebg-preview.png",
+  "/logo_partner/TPC_Vina-removebg-preview.png",
+  "/logo_partner/TVC-removebg-preview.png",
+  "/logo_partner/VEDAN-removebg-preview.png",
+  "/logo_partner/Vina_corp-removebg-preview.png",
+  "/logo_partner/VREC-removebg-preview.png",
 ];
 
 export default function LogoSlider() {
@@ -53,7 +53,7 @@ export default function LogoSlider() {
             <img
               src={logo}
               alt={`logo-${index}`}
-              className="h-12 w-auto object-contain grayscale hover:grayscale-0 transition"
+              className="h-12 w-auto object-contain"
             />
           </SwiperSlide>
         ))}

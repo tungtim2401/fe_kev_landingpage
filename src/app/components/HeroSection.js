@@ -63,15 +63,17 @@ export function HeroSection() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}
                 >
-                  {slide.tag.map((item) => (
-                    <div
-                      key={item}
-                      className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold mb-6"
-                    >
-                      <Award size={16} />
-                      <span>{item}</span>
-                    </div>
-                  ))}
+                  <div className="flex gap-4 flex-wrap">
+                    {slide.tag.map((item) => (
+                      <div
+                        key={item}
+                        className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold mb-6"
+                      >
+                        <Award size={16} />
+                        <span>{item}</span>
+                      </div>
+                    ))}
+                  </div>
                   <h1
                     className="font-display text-5xl md:text-7xl font-bold text-gray-200 leading-[1.1] mb-6"
                     dangerouslySetInnerHTML={{ __html: slide.title }}

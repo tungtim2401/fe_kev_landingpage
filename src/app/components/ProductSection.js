@@ -8,77 +8,29 @@ export default function ProductSection() {
   const [isExpanded, setIsExpanded] = useState(false);
   const sectionRef = useRef(null); // Tạo ref để định vị khi đóng
 
- const products = [
+  const products = [
     {
       name: t("product_1"),
       category: t("cate_product_1"),
-      image: "/images/product_1.png",
+      image: "/images/product/Product_image 1.png",
       specs: [t("specs_product_1_1"), t("specs_product_1_2")],
     },
     {
       name: t("product_2"),
       category: t("cate_product_2"),
-      image: "/images/product_2.png",
+      image: "/images/product/towerr.png",
       specs: [t("specs_product_2_1"), t("specs_product_2_2")],
     },
     {
       name: t("product_3"),
       category: t("cate_product_3"),
-      image: "/images/product_3.png",
+      image: "/images/product/3 nồi áp suất thép không gỉ.png",
       specs: [t("specs_product_3_1"), t("specs_product_3_2")],
     },
     {
       name: t("product_4"),
       category: t("cate_product_4"),
-      image: "/images/product_4.png",
-      specs: [t("specs_product_4_1"), t("specs_product_4_2")],
-    },
-    {
-      name: t("product_4"),
-      category: t("cate_product_4"),
-      image: "/images/product_4.png",
-      specs: [t("specs_product_4_1"), t("specs_product_4_2")],
-    },
-    {
-      name: t("product_4"),
-      category: t("cate_product_4"),
-      image: "/images/product_4.png",
-      specs: [t("specs_product_4_1"), t("specs_product_4_2")],
-    },
-    {
-      name: t("product_4"),
-      category: t("cate_product_4"),
-      image: "/images/product_4.png",
-      specs: [t("specs_product_4_1"), t("specs_product_4_2")],
-    },
-    {
-      name: t("product_4"),
-      category: t("cate_product_4"),
-      image: "/images/product_4.png",
-      specs: [t("specs_product_4_1"), t("specs_product_4_2")],
-    },
-    {
-      name: t("product_4"),
-      category: t("cate_product_4"),
-      image: "/images/product_4.png",
-      specs: [t("specs_product_4_1"), t("specs_product_4_2")],
-    },
-    {
-      name: t("product_4"),
-      category: t("cate_product_4"),
-      image: "/images/product_4.png",
-      specs: [t("specs_product_4_1"), t("specs_product_4_2")],
-    },
-    {
-      name: t("product_4"),
-      category: t("cate_product_4"),
-      image: "/images/product_4.png",
-      specs: [t("specs_product_4_1"), t("specs_product_4_2")],
-    },
-    {
-      name: t("product_4"),
-      category: t("cate_product_4"),
-      image: "/images/product_4.png",
+      image: "/images/product/industrial Furnace.png",
       specs: [t("specs_product_4_1"), t("specs_product_4_2")],
     },
   ];
@@ -102,17 +54,14 @@ export default function ProductSection() {
       <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
         <div className="max-w-2xl">
           <h2 className="font-display text-4xl font-bold mb-6 text-gray-200">
-            {t("product")}
+            {t("nav_header_4")}
           </h2>
-          <p className="text-gray-300 text-lg">{t("product_desc")}</p>
+          {/* <p className="text-gray-300 text-lg">{t("product_desc")}</p> */}
         </div>
       </div>
 
       {/* Grid với layout transition */}
-      <motion.div 
-        layout 
-        className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"
-      >
+      <motion.div layout className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         <AnimatePresence mode="popLayout">
           {visibleProducts.map((product, idx) => (
             <motion.div
@@ -121,11 +70,11 @@ export default function ProductSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, transition: { duration: 0.2 } }}
-              transition={{ 
-                type: "spring", 
-                stiffness: 300, 
+              transition={{
+                type: "spring",
+                stiffness: 300,
                 damping: 30,
-                opacity: { duration: 0.2 } 
+                opacity: { duration: 0.2 },
               }}
               className="group bg-gray-50 rounded-2xl overflow-hidden border border-gray-100 hover:shadow-2xl transition-all"
             >
@@ -145,9 +94,12 @@ export default function ProductSection() {
                 </h3>
                 <ul className="space-y-2 mb-6">
                   {product.specs.map((spec, sIdx) => (
-                    <li key={sIdx} className="text-sm text-gray-600 flex items-center gap-2">
+                    <li
+                      key={sIdx}
+                      className="text-sm text-gray-600 flex items-center gap-2"
+                    >
                       <div className="w-1 h-1 bg-primary rounded-full" />
-                      {spec}
+                      <div className="flex-1">{spec}</div>
                     </li>
                   ))}
                 </ul>

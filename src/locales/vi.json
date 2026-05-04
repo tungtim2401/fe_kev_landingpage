@@ -2,73 +2,133 @@
   "lang_vi": "lang_vi",
   "lang_en": "lang_en",
   "lang_ja": "lang_ja",
-  "nav_header_1": "nav_header_1",
-  "nav_header_2": "nav_header_2",
-  "nav_header_3": "nav_header_3",
-  "nav_header_4": "nav_header_4",
-  "nav_header_5": "nav_header_5",
-  "nav_header_6_highlight": "nav_header_6_highlight",
-  "hero_title_1": "hero_title_1",
-  "hero_desc_1": "hero_desc_1",
-  "hero_title_2": "hero_title_2",
-  "hero_desc_2": "hero_desc_2",
-  "hero_title_3": "hero_title_3",
-  "hero_desc_3": "hero_desc_3",
-  "serviceContent": "serviceContent",
-  "service_1": "service_1",
-  "desc_service_1": "desc_service_1",
-  "service_2": "service_2",
-  "desc_service_2": "desc_service_2",
-  "service_3": "service_3",
-  "desc_service_3": "desc_service_3",
-  "service_4": "service_4",
-  "desc_service_4": "desc_service_4",
-  "product": "product",
-  "product_desc": "product_desc",
-  "product_1": "product_1",
-  "cate_product_1": "cate_product_1",
-  "specs_product_1_1": "specs_product_1_1",
-  "specs_product_1_2": "specs_product_1_2",
-  "product_2": "product_2",
-  "cate_product_2": "cate_product_2",
-  "specs_product_2_1": "specs_product_2_1",
-  "specs_product_2_2": "specs_product_2_2",
-  "product_3": "product_3",
-  "cate_product_3": "cate_product_3",
-  "specs_product_3_1": "specs_product_3_1",
-  "specs_product_3_2": "specs_product_3_2",
-  "product_4": "product_4",
-  "cate_product_4": "cate_product_4",
-  "specs_product_4_1": "specs_product_4_1",
-  "specs_product_4_2": "specs_product_4_2",
-  "process": "process",
-  "process_desc": "process_desc",
-  "process_1": "process_1",
-  "desc_process_1": "desc_process_1",
-  "process_2": "process_2",
-  "desc_process_2": "desc_process_2",
-  "process_3": "process_3",
-  "desc_process_3": "desc_process_3",
-  "process_4": "process_4",
-  "desc_process_4": "desc_process_4",
-  "about_title": "about_title",
-  "about_content_1": "about_content_1",
-  "about_content_2": "about_content_2",
-  "about_content_3": "about_content_3",
-  "about_content_4": "about_content_4",
-  "footer_desc": "footer_desc",
-  "contact_title": "contact_title",
-  "contact_phone": "contact_phone",
-  "contact_email": "contact_email",
-  "contact_address": "contact_address",
-  "ceo_title_small": "ceo_title_small",
-  "ceo_title_big": "ceo_title_big",
-  "ceo_desc": "ceo_desc",
-  "ceo_name": "ceo_name",
-  "ceo_position": "ceo_position",
-  "team_title": "team_title",
-  "team_desc_1": "team_desc_1",
-  "team_desc_2": "team_desc_2",
-  "show_less": "show_less",
-  "view_all": "view_all"
+  "nav_header_1": "Giới thiệu công ty",
+  "nav_header_2": "Năng lực tổng thể",
+  "nav_header_3": "Năng lực cốt lõi của SEV",
+  "nav_header_4": "Sản phẩm",
+  "nav_header_5": "Tuyển dụng",
+  "nav_header_6_highlight": "Liên hệ",
+
+  "hero_title_1": "<span class='text-primary'>Giải pháp</span> trao đổi nhiệt <span class='text-primary'>đa tiêu chuẩn, đa vật liệu</span>",
+  "hero_desc_1": "Được thiết kế để đáp ứng các tiêu chuẩn quốc tế và yêu cầu kỹ thuật khắt khe trong công nghiệp.",
+  "hero_tag_1": "Thiết bị trao đổi nhiệt ",
+
+  "hero_title_2": "Giải pháp <span class='text-primary'>tháp công nghệ</span> cho các quy trình xử lý công nghiệp",
+  "hero_desc_2": "Tối ưu hóa hiệu suất, độ bền và khả năng vận hành trong các hệ thống yêu cầu cao.",
+  "hero_tag_2": "Cột / Tháp công nghệ ",
+
+  "hero_title_3": "<span class='text-primary'>Thiết bị áp lực</span>",
+  "hero_desc_3": "Được thiết kế và chế tạo nhằm đảm bảo độ bền, an toàn và hiệu suất trong các điều kiện vận hành khắt khe.",
+  "hero_tag_3_1": "Bồn áp lực",
+  "hero_tag_3_2": "Reactor / Separator",
+  "hero_tag_3_3": "Knock-out drum",
+  "hero_tag_3_4": "Thiết bị công nghệ",
+
+  "start_1": "Kinh nghiệm trong lĩnh vực chế tạo công nghiệp",
+  "number_1": "29+",
+  "start_2": "Dự án / thiết bị đã bàn giao",
+  "number_2": "1500+",
+  "start_3": "Năng lực sản xuất hàng năm",
+  "number_3": "2400+",
+  "start_4": "Đội ngũ kỹ sư và công nhân kỹ thuật",
+  "number_4": "130+",
+
+  "serviceContent": "Cung cấp giải pháp tổng thể từ thiết kế, chế tạo, kiểm soát chất lượng đến vận chuyển cho các hệ thống công nghiệp.",
+
+  "service_1": "Năng lực Sản xuất",
+  "desc_service_1": "Năng lực chế tạo công suất lớn, đáp ứng đa tiêu chuẩn quốc tế với độ chính xác cao.\nHỗ trợ gia công thiết bị kích thước lớn và vật liệu đặc biệt.\n\n80T | Ø5M | 25M | 30 thiết bị/tháng\n(Pickling, Blasting, Painting, Heat Treatment, Titanium, FRP…)",
+
+  "service_2": "Năng lực Thiết kế",
+  "desc_service_2": "Năng lực thiết kế cơ khí và tính toán kỹ thuật toàn diện, đáp ứng đa tiêu chuẩn quốc tế.\nTối ưu hiệu suất, an toàn và khả năng vận hành của thiết bị.\n\nASME | JIS | API | TCVN | PED\n(PV Elite, HTRI, AutoCAD…)",
+
+  "service_3": "Năng lực Quản lý Chất lượng",
+  "desc_service_3": "Hệ thống QA/QC nghiêm ngặt, tuân thủ các tiêu chuẩn và chứng nhận quốc tế.\nThực hiện đầy đủ kiểm tra NDT và kiểm định bởi bên thứ ba.\n\nISO 9001 | ASME U Stamp | NDT (RT, UT, MT, PT)\n(TUV, SGS, LRQA…)",
+
+  "service_4": "Năng lực Vận chuyển",
+  "desc_service_4": "Giải pháp vận chuyển linh hoạt cho thiết bị siêu trường, siêu trọng, đảm bảo an toàn và đúng tiến độ.\nHỗ trợ đa phương thức và đầy đủ thủ tục xuất nhập khẩu.\n\n70T | L28M × W5.2M × H4.8M\n(FOB | CIF | DDP | DAP…)",
+
+  "cate_product_1": "Thiết bị trao đổi nhiệt cỡ lớn (φ2000 × L18.000 × 65 tấn)",
+  "product_1": "Thiết bị trao đổi nhiệt",
+  "specs_product_1_1": "Loại / Kết cấu: Ống thẳng / Ống chữ U / Đầu nổi",
+  "specs_product_1_2": "Vật liệu: Thép carbon / Inox / Duplex / Titanium",
+  "specs_product_1_3": "Tiêu chuẩn: JIS / ASME (có/không U-Stamp) / MOM / DOSH / TCVN",
+
+  "cate_product_2": "Thiết bị cột công nghệ / tháp công nghiệp",
+  "product_2": "THÁP",
+  "cate_product_2_detail": "ID 1.000 × L 36.680 mm ｜ ~30,0 tấn",
+  "specs_product_2_1": "Vật liệu: Duplex S31260 / SM400B",
+  "specs_product_2_2": "Tiêu chuẩn JIS (圧) ｜ Gia công độ chính xác cao ｜ Yêu cầu lắp đặt nghiêm ngặt",
+
+  "cate_product_3": "Kinh nghiệm đa ngành: Dầu khí / Hóa chất / Năng lượng / Thực phẩm",
+  "product_3": "Thiết bị áp lực (Thiết bị tách / Bình tách / Thiết bị phản ứng / Thiết bị cyclone)",
+  "specs_product_3_1": "Quản lý tiến độ ổn định, thực hiện dự án chắc chắn",
+  "specs_product_3_2": "Thành tích dày dặn trong thiết bị áp lực và thiết bị trao đổi nhiệt",
+
+  "cate_product_4": "Thiết kế & chế tạo thiết bị quy mô lớn theo yêu cầu",
+  "product_4": "Lò xử lý nhiệt công nghiệp",
+  "specs_product_4_1": "Kết cấu module phức tạp, tích hợp đa chức năng",
+  "specs_product_4_2": "Đáp ứng tiêu chuẩn kỹ thuật cao cho hệ thống công nghiệp",
+
+  "process": "Năng lực cốt lõi của SEV",
+
+  "process_1": "Đáp ứng đa tiêu chuẩn quốc tế",
+  "desc_process_1": "Đáp ứng các tiêu chuẩn quốc tế chính, phục vụ dự án toàn cầu.\nBao gồm ASME (U-Stamp), JIS, API, PED, TCVN, MOM, DOSH.",
+
+  "process_2": "Năng lực vật liệu đa dạng",
+  "desc_process_2": "Năng lực chế tạo trên nhiều loại vật liệu công nghiệp.\nThép carbon, inox, duplex, titanium, hastelloy, nhôm.",
+
+  "process_3": "Chuyên môn thiết bị công nghiệp nặng",
+  "desc_process_3": "Chuyên sâu thiết bị công nghiệp quy mô lớn, yêu cầu kỹ thuật cao.\nBao gồm bồn áp lực, trao đổi nhiệt, tháp, bồn chứa, hệ thống cold box.",
+
+  "process_4": "Kinh nghiệm dự án thực tế",
+  "desc_process_4": "Kinh nghiệm triển khai nhiều dự án trong các ngành công nghiệp khác nhau.\nDầu khí, năng lượng, hóa chất, thực phẩm, công nghiệp nặng, với khách hàng quốc tế.",
+
+  "about_title": "Lĩnh vực hoạt động",
+
+  "about_content_1": "Thiết kế và chế tạo tháp công nghệ, bồn/bình áp lực và thiết bị trao đổi nhiệt\nTuân thủ các tiêu chuẩn quốc tế:\nJIS, High Pressure Gas (HPG), Luật PCCC, ASME U Stamp, TCVN (Việt Nam), MOM, DOSH, PED",
+
+  "about_content_2": "Chế tạo thiết bị cho nhà máy hóa chất\nVật liệu: Thép cacbon (C/S), thép không gỉ (SUS), nhôm (AL), titan (Ti),…\nỨng dụng cho thiết bị công nghiệp nói chung và thiết bị khuấy trộn",
+
+  "about_content_3": "Thiết bị cho nhà máy điện\n(ví dụ: bộ gia nhiệt nước cấp – feedwater heater, v.v.)",
+
+  "about_content_4": "Các sản phẩm công nghiệp tổng hợp",
+
+  "about_content_5": "Chế tạo kết cấu thép, lò đốt, buồng làm mát khí, v.v.",
+
+  "about_content_6": "Gia công bồn áp lực, kết cấu thép",
+
+  "about_content_7": "Gia công chế tạo đường ống (piping prefabrication / spool)",
+
+  "about_content_8": "Thi công lắp đặt tại công trường và dịch vụ bảo trì",
+
+  "contact_title": "Liên hệ tư vấn",
+  "contact_phone": "Số điện thoại",
+  "contact_email": "Email",
+  "contact_address": "Địa chỉ",
+
+  "ceo_title_small": "Cam kết của chúng tôi",
+  "ceo_title_big": "Bằng kỹ thuật vượt trội, tạo ra giá trị khác biệt mà nơi khác không có.",
+
+  "ceo_desc": "“Soltec Engineering Vietnam” phiên bản mới đã chính thức khởi động.\n\nCông ty có tiền thân là KOBELCO E&M VIETNAM CO., LTD. Sau khi thực hiện chuyển nhượng vốn vào tháng 12 năm 2025, trên nền tảng hoạt động kinh doanh trước đây, chúng tôi đã tái cấu trúc và xây dựng cơ sở sản xuất tại Việt Nam, nhằm cung cấp kịp thời các sản phẩm có giá trị gia tăng cao dựa trên năng lực kỹ thuật chế tạo. Đồng thời, chúng tôi cũng đã đạt được các giấy phép gia công có thể đáp ứng tiêu chuẩn toàn cầu, qua đó đáp ứng kỳ vọng của Quý khách hàng.\n\nBên cạnh việc thiết kế và chế tạo các thiết bị như tháp, bồn, thiết bị trao đổi nhiệt và các loại máy móc công nghiệp, chúng tôi còn cung cấp dịch vụ trọn gói từ lắp đặt tại chỗ đến bảo trì. Phát huy những thành tựu đã đạt được, chúng tôi sẽ tiếp tục nỗ lực đáp ứng nhu cầu của khách hàng dựa trên QCDS (Chất lượng – Chi phí – Tiến độ – An toàn).\n\nHơn nữa, với việc trở thành một thành viên của Tập đoàn Soltec, thông qua sự phối hợp giữa công ty mẹ tại Nhật Bản, Soltec Vietnam và các đơn vị trong tập đoàn như Rutenchem, chúng tôi sẽ phát huy sức mạnh tổng hợp và nâng cao giá trị cung cấp đến khách hàng.\n\nKhông chỉ tại Nhật Bản, chúng tôi còn hướng tới cung cấp kịp thời các sản phẩm có giá trị gia tăng cao với năng lực sản xuất vượt trội đến khu vực ASEAN và các thị trường quốc tế khác.\n\nToàn thể cán bộ nhân viên sẽ đồng lòng nỗ lực hết mình. Kính mong Quý vị tiếp tục tin tưởng và kỳ vọng vào chúng tôi.",
+
+  "ceo_name": "Nanri Tamotsu",
+  "ceo_position": "Tổng Giám đốc",
+
+  "team_title": "Cơ hội tại SEV",
+
+  "team_desc_1": "Tại SEV (Soltec Engineering Vietnam), chúng tôi xây dựng môi trường làm việc chuyên nghiệp, minh bạch và đề cao tinh thần trách nhiệm theo tiêu chuẩn Nhật Bản.\n\nChúng tôi chào đón tất cả những ai có mong muốn phát triển — từ các kỹ sư trẻ đang tìm cơ hội thử thách, đến những chuyên gia giàu kinh nghiệm muốn khẳng định giá trị trong một môi trường ổn định và rõ ràng.\n\nNếu bạn sẵn sàng học hỏi, cống hiến và phát triển lâu dài, SEV luôn mở cửa chào đón bạn.",
+
+  "team_desc_2": "Email liên hệ: info@soltec-ev.com",
+
+  "project_experience_title": "Kinh nghiệm cung cấp",
+  "project_experience_list_1": "Nhà máy Dầu khí",
+  "project_experience_list_2": "Nhà máy Hóa chất",
+  "project_experience_list_3": "Nhà máy Điện (Nhà máy Năng lượng)",
+  "project_experience_list_4": "Nhà máy Chế biến Thực phẩm",
+
+  "support_1": "Hỗ Trợ",
+  "support_2": "Tư vấn kỹ thuật",
+  "support_3": "Chính sách bảo hành",
+  "support_4": "Hồ sơ năng lực",
+  "support_5": "Tuyển dụng"
 }

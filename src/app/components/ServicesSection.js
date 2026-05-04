@@ -1,7 +1,14 @@
 // import { services } from "@/constants/config";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { ArrowRight, Factory, Settings, ShieldCheck, Thermometer } from "lucide-react";
+import {
+  ArrowRight,
+  Factory,
+  Settings,
+  ShieldCheck,
+  Thermometer,
+} from "lucide-react";
+import Image from "next/image";
 
 export default function ServicesSection() {
   const { t } = useTranslation();
@@ -10,22 +17,50 @@ export default function ServicesSection() {
     {
       title: t("service_1"),
       description: t("desc_service_1"),
-      icon: <ShieldCheck className="w-8 h-8 text-primary" />,
+      icon: (
+        <Image
+          src="/images/service/icon_1-removebg-preview.png"
+          alt=""
+          width={50}
+          height={50}
+        />
+      ),
     },
     {
       title: t("service_2"),
       description: t("desc_service_2"),
-      icon: <Thermometer className="w-8 h-8 text-primary" />,
+      icon: (
+        <Image
+          src="/images/service/icon_2-removebg-preview.png"
+          alt=""
+          width={50}
+          height={50}
+        />
+      ),
     },
     {
       title: t("service_3"),
       description: t("desc_service_3"),
-      icon: <Settings className="w-8 h-8 text-primary" />,
+      icon: (
+        <Image
+          src="/images/service/icon_3-removebg-preview.png"
+          alt=""
+          width={50}
+          height={50}
+        />
+      ),
     },
     {
       title: t("service_4"),
       description: t("desc_service_4"),
-      icon: <Factory className="w-8 h-8 text-primary" />,
+      icon: (
+        <Image
+          src="/images/service/icon_4-removebg-preview.png"
+          alt=""
+          width={50}
+          height={50}
+        />
+      ),
     },
   ];
 
@@ -47,8 +82,10 @@ export default function ServicesSection() {
               className="text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100"
             >
               <div className="mb-2">{service.icon}</div>
-              <h3 className="text-xl font-bold mb-4 text-gray-200 ">{service.title}</h3>
-              <p className="text-gray-300 leading-relaxed mb-6">
+              <h3 className="text-xl font-bold mb-4 text-gray-200 ">
+                {service.title}
+              </h3>
+              <p className="text-gray-300 leading-relaxed mb-6 whitespace-pre-line">
                 {service.description}
               </p>
               <a

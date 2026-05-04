@@ -36,7 +36,7 @@ export default function EmployeesSection() {
                   }}
                 />
               </h2>
-              <p className="text-industrial-gray text-lg leading-relaxed mb-8">
+              <p className="text-industrial-gray text-lg leading-relaxed mb-8 whitespace-pre-line">
                 {t("ceo_desc")}
               </p>
               <div>
@@ -56,7 +56,7 @@ export default function EmployeesSection() {
             >
               <div className="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800"
+                  src="/images/ceo/ceo.png"
                   alt="CEO IndusPro"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -78,8 +78,8 @@ export default function EmployeesSection() {
             >
               <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
                 <img
-                  src="https://images.unsplash.com/photo-1522071823991-b9671f9d7f1f?auto=format&fit=crop&q=80&w=1000"
-                  alt="IndusPro Team"
+                  src="/images/ceo/team.jpg"
+                  alt="sev Team"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />

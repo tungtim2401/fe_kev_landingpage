@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import {  Award } from "lucide-react";
+import { Award } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import { useTranslation } from "react-i18next";
@@ -10,20 +10,25 @@ export function HeroSection() {
     {
       title: t("hero_title_1"),
       desc: t("hero_desc_1"),
-      image: "/images/preview.png",
-      tag: t("hero_tag_1"),
+      image: "/images/hero/Bồn áp lực.png",
+      tag: [t("hero_tag_1")],
     },
     {
       title: t("hero_title_2"),
       desc: t("hero_desc_2"),
-      image: "/images/preview2.png",
-      tag: t("hero_tag_2"),
+      image: "/images/hero/17K21.png",
+      tag: [t("hero_tag_2")],
     },
     {
       title: t("hero_title_3"),
       desc: t("hero_desc_3"),
-      image: "/images/preview3.jpg",
-      tag: t("hero_tag_3"),
+      image: "/images/hero/Thiết bị trao đổi Nhiệt.png",
+      tag: [
+        t("hero_tag_3_1"),
+        t("hero_tag_3_2"),
+        t("hero_tag_3_3"),
+        t("hero_tag_3_4"),
+      ],
     },
   ];
   return (
@@ -58,10 +63,15 @@ export function HeroSection() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}
                 >
-                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold mb-6">
-                    <Award size={16} />
-                    <span>{slide.tag}</span>
-                  </div>
+                  {slide.tag.map((item) => (
+                    <div
+                      key={item}
+                      className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold mb-6"
+                    >
+                      <Award size={16} />
+                      <span>{item}</span>
+                    </div>
+                  ))}
                   <h1
                     className="font-display text-5xl md:text-7xl font-bold text-gray-200 leading-[1.1] mb-6"
                     dangerouslySetInnerHTML={{ __html: slide.title }}

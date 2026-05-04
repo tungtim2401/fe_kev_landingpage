@@ -23,7 +23,9 @@ export default function CtaSection() {
                   <div className="text-sm industrial-gray font-medium text-gray-200">
                     {t("contact_phone")}
                   </div>
-                  <div className="font-bold text-lg text-gray-300">+84 123 456 789</div>
+                  <div className="font-bold text-lg text-gray-300">
+                    (84.251)383-5641
+                  </div>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -34,19 +36,22 @@ export default function CtaSection() {
                   <div className="text-sm industrial-gray font-medium text-gray-200">
                     {t("contact_email")}
                   </div>
-                  <div className="font-bold text-lg text-gray-300">contact@induspro.vn</div>
+                  <div className="font-bold text-lg text-gray-300">
+                    info@soltec-ev.com
+                  </div>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-primary">
                   <MapPin size={24} />
                 </div>
-                <div>
+                <div className="flex-1">
                   <div className="text-sm industrial-gray font-medium text-gray-200">
                     {t("contact_address")}
                   </div>
                   <div className="font-bold text-lg text-gray-300">
-                    KCN Hiệp Phước, Nhà Bè, TP. HCM
+                    Số 6, Đường 2A, KCN Biên Hòa II, Phường Long Hưng, TP. Biên
+                    Hòa, Đồng Nai, Việt Nam
                   </div>
                 </div>
               </div>

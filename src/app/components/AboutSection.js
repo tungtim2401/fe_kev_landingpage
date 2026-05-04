@@ -9,7 +9,7 @@ export default function AboutSection() {
     t("about_content_2"),
     t("about_content_3"),
     t("about_content_4"),
-  ]
+  ];
 
   return (
     <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
@@ -21,13 +21,26 @@ export default function AboutSection() {
           className="rounded-3xl shadow-2xl relative z-10"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute -bottom-6 -right-6 bg-industrial-blue p-8 rounded-2xl shadow-xl z-20 hidden md:block">
+        <div className="absolute -bottom-6 -right-6 bg-industrial-blue p-6 rounded-2xl shadow-xl z-20 hidden md:block">
           <div className="flex items-center gap-4 text-white">
-            <ShieldCheck className="text-primary w-10 h-10" />
-            <div>
-              <div className="font-bold text-xl">An Toàn Tuyệt Đối</div>
-              <div className="text-white/60 text-sm">
-                Kiểm định độc lập 100%
+            <div className="flex flex-col gap-2">
+              <div className="font-bold flex gap-4">
+                <ShieldCheck className="text-primary w-5 h-5" />
+                ISO 9001:2015
+              </div>
+              <div className="font-bold flex gap-4">
+                <ShieldCheck className="text-primary w-5 h-5" />
+                ASME U.S.R STAMP
+              </div>
+
+              <div className="font-bold flex gap-4">
+                <ShieldCheck className="text-primary w-5 h-5" />
+                HTRI（Heat Transfer Research, Inc.）
+              </div>
+
+              <div className="font-bold flex gap-4">
+                <ShieldCheck className="text-primary w-5 h-5" />
+                ISO 45001:2018
               </div>
             </div>
           </div>
@@ -36,7 +49,7 @@ export default function AboutSection() {
 
       <div>
         <h2 className="font-display text-4xl font-bold mb-8 leading-tight text-gray-100">
-          {t('about_title')}
+          {t("about_title")}
         </h2>
         <div className="space-y-6 ">
           {about.map((item, i) => (

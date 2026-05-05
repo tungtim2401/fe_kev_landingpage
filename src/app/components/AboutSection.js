@@ -1,14 +1,32 @@
-import { CheckCircle2, ShieldCheck } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import {
+  ShieldCheck,
+  Factory,
+  FlaskConical,
+  LayoutList,
+  Zap,
+  ClipboardCheck,
+  Cpu,
+  Wrench,
+  Droplets,
+} from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function AboutSection() {
   const { t } = useTranslation();
 
   const about = [
-    t("about_content_1"),
-    t("about_content_2"),
-    t("about_content_3"),
-    t("about_content_4"),
+    { text: t("about_content_1"), icon: <Factory className="w-5 h-5" /> },
+    { text: t("about_content_2"), icon: <FlaskConical className="w-5 h-5" /> },
+    { text: t("about_content_3"), icon: <Zap className="w-5 h-5" /> },
+    { text: t("about_content_4"), icon: <LayoutList className="w-5 h-5" /> },
+    { text: t("about_content_5"), icon: <Cpu className="w-5 h-5" /> },
+    { text: t("about_content_6"), icon: <Wrench className="w-5 h-5" /> },
+    { text: t("about_content_7"), icon: <Droplets className="w-5 h-5" /> },
+    {
+      text: t("about_content_8"),
+      icon: <ClipboardCheck className="w-5 h-5" />,
+    },
   ];
 
   return (
@@ -48,20 +66,35 @@ export default function AboutSection() {
       </div>
 
       <div>
-        <h2 className="font-display text-4xl font-bold mb-8 leading-tight text-gray-100">
+        <h2 className="font-display text-4xl font-bold mb-8 leading-tight text-gray-200">
           {t("about_title")}
         </h2>
-        <div className="space-y-6 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {about.map((item, i) => (
-            <div key={i} className="flex gap-4 items-start">
-              <CheckCircle2 className="text-primary shrink-0 mt-1" />
-              <p className="text-lg text-gray-100">{item}</p>
-            </div>
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1 }}
+              className="flex gap-5 group"
+            >
+              <div className="w-10 h-10 rounded-2xl bg-gray-50 flex items-center justify-center shrink-0 text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300 shadow-sm border border-gray-100">
+                {item.icon}
+              </div>
+              <div>
+                <p className="text-sm text-industrial-gray text-lg leading-relaxed pt-1 group-hover:text-industrial-blue transition-colors">
+                  {item.text}
+                </p>
+              </div>
+            </motion.div>
           ))}
         </div>
-        {/* <button className="mt-10 px-8 py-4 border-2 border-industrial-blue text-industrial-blue font-bold rounded-xl hover:bg-industrial-blue hover:text-white transition-all">
-          Tìm Hiểu Thêm Về Chúng Tôi
-        </button> */}
+        <a href="/files/PROFILE_TA.pdf" download="Profile_Cong_Ty.pdf">
+          <button className="cursor-pointer mt-10 px-8 py-4 border-2 border-industrial-blue text-industrial-blue bg-transparent font-bold rounded-xl hover:bg-industrial-blue hover:!text-white transition-all">
+            {t("about_button")}
+          </button>
+        </a>
       </div>
     </div>
   );

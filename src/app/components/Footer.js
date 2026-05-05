@@ -28,8 +28,8 @@ export default function Footer() {
               <Image
                 src="/images/logo-cut.png"
                 alt=""
-                width={100}
-                height={50}
+                width={400}
+                height={100}
               />
             </div>
             <p className="industrial-gray max-w-sm mb-8 leading-relaxed text-gray-200">
@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-6">{t("project_experience_title")}</h4>
+            <div className="font-bold mb-8">{t("project_experience_title")}</div>
             <ul className="space-y-4 industrial-gray">
               {project.map((item) => (
                 <li key={item}>
@@ -65,7 +65,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-6">{t("support_1")}</h4>
+            <div className="font-bold mb-8">{t("support_1")}</div>
             <ul className="space-y-4 industrial-gray">
               {support.map((item) => (
                 <li key={item}>

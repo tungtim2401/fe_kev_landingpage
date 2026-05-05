@@ -98,7 +98,13 @@ export function NavHeader({
               scrolled ? "text-gray-200" : "text-white/90",
             )}
           >
-      
+            <Link
+              className="hover:text-primary transition-colors text-[18px]"
+              href="#nav_header_1"
+              onClick={() => handleScroll("nav_header_1")}
+            >
+              {t("nav_header_1")}
+            </Link>
             <Link
               className="hover:text-primary transition-colors text-[18px]"
               href="#nav_header_2"
@@ -127,13 +133,7 @@ export function NavHeader({
             >
               {t("nav_header_5")}
             </Link>
-                  <Link
-              className="hover:text-primary transition-colors text-[18px]"
-              href="#nav_header_6"
-              onClick={() => handleScroll("nav_header_6")}
-            >
-              {t("nav_header_1")}
-            </Link>
+
             <Link
               href="#nav_header_6_highlight"
               className="px-5 py-2.5 bg-primary text-white rounded-full hover:bg-red-600 transition-all"

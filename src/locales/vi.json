@@ -1,10 +1,10 @@
 {
-  "lang_vi": "lang_vi",
-  "lang_en": "lang_en",
-  "lang_ja": "lang_ja",
+  "lang_vi": "Tiếng Việt",
+  "lang_en": "Tiếng Anh",
+  "lang_ja": "Tiếng Nhật",
   "nav_header_1": "Giới thiệu công ty",
-  "nav_header_2": "Năng lực tổng thể",
-  "nav_header_3": "Năng lực cốt lõi của SEV",
+  "nav_header_2": "Sản phẩm & Dịch vụ",
+  "nav_header_3": "Dự án tiêu biểu",
   "nav_header_4": "Sản phẩm",
   "nav_header_5": "Tuyển dụng",
   "nav_header_6_highlight": "Liên hệ",
@@ -36,7 +36,7 @@
   "serviceContent": "Cung cấp giải pháp tổng thể từ thiết kế, chế tạo, kiểm soát chất lượng đến vận chuyển cho các hệ thống công nghiệp.",
 
   "service_1": "Năng lực Sản xuất",
-  "desc_service_1": "Năng lực chế tạo công suất lớn, đáp ứng đa tiêu chuẩn quốc tế với độ chính xác cao.\nHỗ trợ gia công thiết bị kích thước lớn và vật liệu đặc biệt.\n\n80T | Ø5M | 25M | 30 thiết bị/tháng\n(Pickling, Blasting, Painting, Heat Treatment, Titanium, FRP…)",
+  "desc_service_1": "Năng lực chế tạo công suất lớn, đáp ứng đa tiêu chuẩn quốc tế với độ chính xác cao.\nHỗ trợ gia công thiết bị kích thước lớn và vật liệu đặc biệt.\n\n80T | Ø5M | 25M |\n 30 thiết bị/tháng\n(Pickling, Blasting, Painting, Heat Treatment, Titanium, FRP…)",
 
   "service_2": "Năng lực Thiết kế",
   "desc_service_2": "Năng lực thiết kế cơ khí và tính toán kỹ thuật toàn diện, đáp ứng đa tiêu chuẩn quốc tế.\nTối ưu hiệu suất, an toàn và khả năng vận hành của thiết bị.\n\nASME | JIS | API | TCVN | PED\n(PV Elite, HTRI, AutoCAD…)",
@@ -47,7 +47,7 @@
   "service_4": "Năng lực Vận chuyển",
   "desc_service_4": "Giải pháp vận chuyển linh hoạt cho thiết bị siêu trường, siêu trọng, đảm bảo an toàn và đúng tiến độ.\nHỗ trợ đa phương thức và đầy đủ thủ tục xuất nhập khẩu.\n\n70T | L28M × W5.2M × H4.8M\n(FOB | CIF | DDP | DAP…)",
 
-  "cate_product_1": "Thiết bị trao đổi nhiệt cỡ lớn (φ2000 × L18.000 × 65 tấn)",
+  "cate_product_1": "Thiết bị trao đổi nhiệt cỡ lớn \n(φ2000 × L18.000 × 65 tấn)",
   "product_1": "Thiết bị trao đổi nhiệt",
   "specs_product_1_1": "Loại / Kết cấu: Ống thẳng / Ống chữ U / Đầu nổi",
   "specs_product_1_2": "Vật liệu: Thép carbon / Inox / Duplex / Titanium",
@@ -70,18 +70,21 @@
   "specs_product_4_2": "Đáp ứng tiêu chuẩn kỹ thuật cao cho hệ thống công nghiệp",
 
   "process": "Năng lực cốt lõi của SEV",
+  "process_cap": "Năng lực triển khai đồng bộ từ thiết kế đến lắp đặt",
 
-  "process_1": "Đáp ứng đa tiêu chuẩn quốc tế",
-  "desc_process_1": "Đáp ứng các tiêu chuẩn quốc tế chính, phục vụ dự án toàn cầu.\nBao gồm ASME (U-Stamp), JIS, API, PED, TCVN, MOM, DOSH.",
+  "process_1": "Thiết kế",
+  "desc_process_1": "Tối ưu dựa trên kinh nghiệm thực tiễn và năng lực kỹ thuật",
 
-  "process_2": "Năng lực vật liệu đa dạng",
-  "desc_process_2": "Năng lực chế tạo trên nhiều loại vật liệu công nghiệp.\nThép carbon, inox, duplex, titanium, hastelloy, nhôm.",
+  "process_2": "Sản xuất",
+  "desc_process_2": "Hệ thống nhà xưởng nội bộ đảm bảo chất lượng cao và ổn định",
 
-  "process_3": "Chuyên môn thiết bị công nghiệp nặng",
-  "desc_process_3": "Chuyên sâu thiết bị công nghiệp quy mô lớn, yêu cầu kỹ thuật cao.\nBao gồm bồn áp lực, trao đổi nhiệt, tháp, bồn chứa, hệ thống cold box.",
+  "process_3": "Kiểm tra",
+  "desc_process_3": "Kiểm soát chất lượng nghiêm ngặt, bao gồm kiểm tra không phá hủy (NDT)",
 
-  "process_4": "Kinh nghiệm dự án thực tế",
-  "desc_process_4": "Kinh nghiệm triển khai nhiều dự án trong các ngành công nghiệp khác nhau.\nDầu khí, năng lượng, hóa chất, thực phẩm, công nghiệp nặng, với khách hàng quốc tế.",
+  "process_4": "Lắp đặt",
+  "desc_process_4": "Triển khai lắp đặt và chạy thử tại công trường",
+
+  "process_end": "Nhờ mô hình triển khai đồng bộ này, SEV tối ưu toàn diện về chất lượng, chi phí và tiến độ,\nmang lại giá trị cao nhất cho khách hàng.",
 
   "about_title": "Lĩnh vực hoạt động",
 
@@ -101,6 +104,8 @@
 
   "about_content_8": "Thi công lắp đặt tại công trường và dịch vụ bảo trì",
 
+  "about_button": "Tìm Hiểu Thêm Về Chúng Tôi",
+  
   "contact_title": "Liên hệ tư vấn",
   "contact_phone": "Số điện thoại",
   "contact_email": "Email",

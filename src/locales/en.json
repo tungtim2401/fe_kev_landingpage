@@ -35,7 +35,7 @@
   "serviceContent": "Delivering integrated engineering, manufacturing, quality control, and logistics to support end-to-end industrial solutions.",
 
   "service_1": "Manufacturing Capabilities",
-  "desc_service_1": "High-capacity fabrication compliant with international standards and high precision requirements.\nCapable of large-scale equipment and special material processing.\n\n80T | Ø5M | 25M | 30 units/month\n(Pickling, Blasting, Painting, Heat Treatment, Titanium, FRP…)",
+  "desc_service_1": "High-capacity fabrication compliant with international standards and high precision requirements.\nCapable of large-scale equipment and special material processing.\n\n80T | Ø5M | 25M | \n30 units/month\n(Pickling, Blasting, Painting, Heat Treatment, Titanium, FRP…)",
 
   "service_2": "Engineering & Design Capabilities",
   "desc_service_2": "Comprehensive mechanical and engineering design compliant with international standards.\nEnsuring optimized performance, safety, and operational reliability.\n\nASME | JIS | API | TCVN | PED\n(PV Elite, HTRI, AutoCAD…)",
@@ -46,7 +46,7 @@
   "service_4": "Logistics & Transportation",
   "desc_service_4": "Flexible logistics solutions for oversized and heavy equipment, ensuring safe and on-time delivery.\nFull support for multimodal transport and international shipping procedures.\n\n70T | L28M × W5.2M × H4.8M\n(FOB | CIF | DDP | DAP…)",
 
-  "cate_product_1": "Large heat exchanger (φ2000 × L18,000 × 65TON)",
+  "cate_product_1": "Large heat exchanger \n(φ2000 × L18,000 × 65TON)",
   "product_1": "Heat Exchangers",
   "specs_product_1_1": "Types / Structures: Straight Tube / U-Tube / Floating Head",
   "specs_product_1_2": "Materials: Carbon Steel / Stainless Steel / Duplex / Titanium",
@@ -69,18 +69,21 @@
   "specs_product_4_2": "Engineered to meet demanding industrial standards",
 
   "process": "Core Strengths of SEV",
+  "process_cap": "Integrated In-House Capability from Design to Installation",
 
-  "process_1": "Multi-Standard Compliance",
-  "desc_process_1": "Compliant with major international codes for global project execution.\nASME (U-Stamp), JIS, API, PED, TCVN, MOM, DOSH.",
+  "process_1": "Design",
+  "desc_process_1": "Optimized engineering based on extensive experience and technical expertise",
 
-  "process_2": "Wide Material Capability",
-  "desc_process_2": "Advanced fabrication across a wide range of industrial materials.\nCarbon Steel, Stainless Steel, Duplex, Titanium, Hastelloy, Aluminum.",
+  "process_2": "Fabrication",
+  "desc_process_2": "High-quality and stable production at our own manufacturing facilities",
 
-  "process_3": "Heavy Industrial Equipment Expertise",
-  "desc_process_3": "Specialized in large-scale and high-spec industrial equipment.\nPressure vessels, heat exchangers, towers, storage tanks, cold box systems.",
+  "process_3": "Inspection",
+  "desc_process_3": "Strict quality control, including Non-Destructive Testing (NDT), conducted in-house",
 
-  "process_4": "Proven Project Experience",
-  "desc_process_4": "Proven track record across diverse industrial sectors.\nOil & Gas, Energy, Chemical, Food, Heavy Industry, with international clients.",
+  "process_4": "Installation",
+  "desc_process_4": "On-site installation and commissioning support",
+
+  "process_end": "Through this integrated approach, SEV optimizes quality, cost, and delivery,\ndelivering high-value solutions to our customers.",
 
   "about_title": "Business Scope",
 
@@ -99,6 +102,7 @@
   "about_content_7": "Piping prefabrication (pipe spool fabrication)",
 
   "about_content_8": "On-site installation and maintenance services",
+  "about_button": "Learn More About Us",
 
   "footer_desc": "Quality Without Compromise. Trust Delivered.\nEngineered to Japanese Standards. Built for the World.\nExcellence in Every Process. Confidence in Every Product.",
 

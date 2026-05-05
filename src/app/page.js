@@ -6,7 +6,6 @@ import HeroSection from "./components/HeroSection";
 import StatsSection from "./components/StatsSection";
 import ServicesSection from "./components/ServicesSection";
 import ProductSection from "./components/ProductSection";
-import Image from "next/image";
 import ProcessSection from "./components/ProcessSection";
 import AboutSection from "./components/AboutSection";
 import CtaSection from "./components/CtaSection";
@@ -55,7 +54,7 @@ export default function App() {
         scrolled={scrolled}
         handleScroll={handleScroll}
       />
-
+    
       {/* Hero Section */}
       <section
         className="relative h-screen overflow-hidden bg-industrial-blue"
@@ -65,16 +64,13 @@ export default function App() {
       </section>
 
       {/* Stats Section */}
-      <section
-        className="py-20 bg-white border-b border-gray-100"
-        id="nav_header_1"
-      >
+      <section className="py-10 bg-white border-b border-gray-100">
         <StatsSection />
       </section>
-
-      {/* Services Section */}
-      <section id="nav_header_2" className="py-24 bg-gray-50">
-        <ServicesSection />
+ 
+      {/* About Section */}
+      <section id="nav_header_5" className="py-24 overflow-hidden bg-white">
+        <AboutSection />
       </section>
 
       <LogoSlider />
@@ -86,17 +82,18 @@ export default function App() {
       >
         <ProcessSection />
       </section>
-      
+
       {/* Product Gallery Section */}
       <section id="nav_header_4" className="py-24 bg-white">
         <ProductSection />
       </section>
 
-      {/* About Section */}
-      <section id="nav_header_5" className="py-24 overflow-hidden">
-        <AboutSection />
+      {/* Services Section */}
+      <section id="nav_header_2" className="py-24 bg-gray-50">
+        <ServicesSection />
       </section>
-      <section id="nav_header_6">
+
+      <section id="nav_header_1">
         <EmployeesSection />
       </section>
       {/* CTA Section */}

@@ -15,11 +15,11 @@ export default function ServicesSection() {
 
   const services = [
     {
-      title: t("service_1"),
-      description: t("desc_service_1"),
+      title: t("service_2"),
+      description: t("desc_service_2"),
       icon: (
         <Image
-          src="/images/service/icon_1-removebg-preview.png"
+          src="/images/service/icon_2-removebg-preview.png"
           alt=""
           width={50}
           height={50}
@@ -27,11 +27,11 @@ export default function ServicesSection() {
       ),
     },
     {
-      title: t("service_2"),
-      description: t("desc_service_2"),
+      title: t("service_1"),
+      description: t("desc_service_1"),
       icon: (
         <Image
-          src="/images/service/icon_2-removebg-preview.png"
+          src="/images/service/icon_1-removebg-preview.png"
           alt=""
           width={50}
           height={50}
@@ -66,7 +66,7 @@ export default function ServicesSection() {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[84%] mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="font-display text-4xl font-bold mb-6 text-gray-200">
             {t("nav_header_2")}

@@ -3,10 +3,10 @@ import { useTranslation } from "react-i18next";
 export default function StatsSection() {
   const { t } = useTranslation();
   const STARTS = [
-    { label: t("start_1"), value: "15+" },
-    { label: t("start_2"), value: "500+" },
-    { label: t("start_3"), value: "50+" },
-    { label: t("start_4"), value: "200+" },
+    { label: t("start_1"), value: t("number_1") },
+    { label: t("start_2"), value: t("number_2") },
+    { label: t("start_3"), value: t("number_3") },
+    { label: t("start_4"), value: t("number_4") },
   ];
 
   return (

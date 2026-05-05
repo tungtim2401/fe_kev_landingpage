@@ -6,7 +6,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const logos = [
-  "/logo_partner/AGS.png",
+  "/logo_partner/AGC.png",
   "/logo_partner/Ajinomoto.png",
   "/logo_partner/asahi_chemical.png",
   "/logo_partner/asahi-removebg-preview.png",
@@ -52,7 +52,7 @@ export default function LogoSlider() {
           >
             <img
               src={logo}
-              alt={`logo-${index}`}
+              alt={logo}
               className="h-12 w-auto object-contain"
             />
           </SwiperSlide>

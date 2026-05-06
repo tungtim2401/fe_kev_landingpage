@@ -13,7 +13,7 @@ import {
 import { motion } from "framer-motion";
 
 export default function AboutSection() {
-  const { t } = useTranslation();
+  const { t,i18n  } = useTranslation();
 
   const about = [
     { text: t("about_content_1"), icon: <Factory className="w-5 h-5" /> },
@@ -90,7 +90,7 @@ export default function AboutSection() {
             </motion.div>
           ))}
         </div>
-        <a href="/files/PROFILE_TA.pdf" download="Profile_Cong_Ty.pdf">
+        <a href={i18n.language === "jp" ? "https://heyzine.com/flip-book/b2c95aa0a4.html" : "https://heyzine.com/flip-book/6352551b0b.html"} target="_blank">
           <button className="cursor-pointer mt-10 px-8 py-4 border-2 border-industrial-blue text-industrial-blue bg-transparent font-bold rounded-xl hover:bg-industrial-blue hover:!text-white transition-all">
             {t("about_button")}
           </button>

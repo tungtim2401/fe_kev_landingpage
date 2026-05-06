@@ -9,25 +9,25 @@ export default function ProcessSection() {
       step: "01",
       title: t("process_1"),
       desc: t("desc_process_1"),
-      img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600",
+      img: "/images/core/design.png",
     },
     {
       step: "02",
       title: t("process_2"),
       desc: t("desc_process_2"),
-      img: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=600",
+      img: "/images/core/đ.png",
     },
     {
       step: "03",
       title: t("process_3"),
       desc: t("desc_process_3"),
-      img: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=600",
+      img: "/images/core/QA.png",
     },
     {
       step: "04",
       title: t("process_4"),
       desc: t("desc_process_4"),
-      img: "https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&q=80&w=600",
+      img: "/images/core/16K23 Ajinomoto VN.png",
     },
   ];
 

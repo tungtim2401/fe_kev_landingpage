@@ -68,7 +68,7 @@ export default function ServicesSection() {
     <>
       <div className="max-w-[84%] mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="font-display text-4xl font-bold mb-6 text-gray-200">
+          <h2 className="font-display text-4xl font-bold mb-6 text-primary">
             {t("nav_header_2")}
           </h2>
           <p className="text-gray-300 text-lg">{t("serviceContent")}</p>
@@ -82,12 +82,13 @@ export default function ServicesSection() {
               className="text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100"
             >
               <div className="mb-2">{service.icon}</div>
-              <h3 className="text-xl font-bold mb-4 text-gray-200 ">
+              <h3 className="text-xl font-bold mb-4 text-primary ">
                 {service.title}
               </h3>
-              <p className="text-gray-300 leading-relaxed mb-6 whitespace-pre-line">
-                {service.description}
-              </p>
+              <p
+                className="text-gray-300 leading-relaxed mb-6 whitespace-pre-line"
+                dangerouslySetInnerHTML={{ __html: service.description }}
+              ></p>
               <a
                 href="#"
                 className="text-primary font-bold flex items-center gap-2 group"

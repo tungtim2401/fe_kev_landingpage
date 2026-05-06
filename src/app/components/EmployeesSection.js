@@ -99,9 +99,6 @@ export default function EmployeesSection() {
               <p className="text-industrial-gray text-lg leading-relaxed mb-6">
                 {t("team_desc_1")}
               </p>
-              <p className="text-industrial-gray text-lg leading-relaxed mb-10">
-                {t("team_desc_1")}
-              </p>
               {/* <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold rounded-xl hover:shadow-xl hover:shadow-blue-500/20 transition-all shadow-lg shadow-blue-500/10">
                 Khám Phá Cơ Hội Nghề Nghiệp
               </button> */}

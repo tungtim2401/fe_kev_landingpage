@@ -167,22 +167,23 @@
   "cate_product_21_sub": "",
   "product_21": "5 m × 3.2 m × 11.5 m （55.5 Tons）",
 
-  "process": "Năng lực cốt lõi của SEV",
-  "process_cap": "Năng lực triển khai đồng bộ từ thiết kế đến lắp đặt",
+  "process": "Thế mạnh cốt lõi của SEV",
+    "process_cap": "Giải pháp đồng bộ từ thiết kế – chế tạo – kiểm tra – lắp đặt – sửa chữa & bảo trì",
+    "process_quote": "Hãy cho chúng tôi bài toán kỹ thuật — SEV sẽ tạo ra lời giải.",
 
-  "process_1": "Thiết kế",
-  "desc_process_1": "Tối ưu dựa trên kinh nghiệm thực tiễn và năng lực kỹ thuật",
+    "process_1": "Thiết kế",
+    "desc_process_1": "Ứng dụng PV Elite trong phân tích kết cấu, chống rung động đất và HTRI trong phân tích nhiệt, SEV cung cấp giải pháp thiết kế tối ưu dựa trên khả năng chế tạo thực tế, độ an toàn và hiệu quả vận hành.\nVới kinh nghiệm thực chiến và năng lực kỹ thuật mạnh mẽ, SEV có thể đáp ứng nhiều lĩnh vực công nghiệp khác nhau.",
 
-  "process_2": "Sản xuất",
-  "desc_process_2": "Hệ thống nhà xưởng nội bộ đảm bảo chất lượng cao và ổn định",
+    "process_2": "Sản xuất",
+    "desc_process_2": "Đội ngũ kỹ sư và kỹ thuật viên giàu kinh nghiệm từ 15–29 năm trực tiếp thực hiện chế tạo với độ chính xác và chất lượng cao tại nhà máy nội bộ.\nSEV sở hữu 29 thợ hàn lành nghề, có khả năng gia công và hàn các vật liệu đặc biệt như Carbon Steel, Stainless Steel, Duplex, Hastelloy, Titanium, Nickel và Aluminum.",
 
-  "process_3": "Kiểm tra",
-  "desc_process_3": "Kiểm soát chất lượng nghiêm ngặt, bao gồm kiểm tra không phá hủy (NDT)",
+    "process_3": "Kiểm tra",
+    "desc_process_3": "SEV có khả năng thực hiện đầy đủ các phương pháp kiểm tra không phá hủy (NDT) như RT, UT, PT, MT và Videoscope ngay trong nội bộ mà không cần phụ thuộc đơn vị bên ngoài.\nHệ thống quản lý chất lượng được kiểm soát nghiêm ngặt theo ITP và có khả năng phối hợp với các tổ chức kiểm định quốc tế như TÜV, BV, SGS, LRQA, Apave…",
 
-  "process_4": "Lắp đặt",
-  "desc_process_4": "Triển khai lắp đặt và chạy thử tại công trường",
+    "process_4": "Lắp đặt, Sửa chữa & Bảo trì",
+    "desc_process_4": "Không chỉ thực hiện lắp đặt, chạy thử, sửa chữa và bảo trì thiết bị, SEV còn chủ động phân tích nguyên nhân, đề xuất giải pháp cải tiến và tối ưu vận hành nhằm nâng cao độ ổn định, hiệu suất và tuổi thọ thiết bị cho khách hàng.\nChúng tôi không chỉ sửa chữa theo yêu cầu, mà còn đồng hành như một đối tác kỹ thuật nhằm mang đến giải pháp vận hành hiệu quả và bền vững hơn.",
 
-  "process_end": "Nhờ mô hình triển khai đồng bộ này, SEV tối ưu toàn diện về chất lượng, chi phí và tiến độ,\nmang lại giá trị cao nhất cho khách hàng.",
+    "process_end": "Bằng việc tối ưu toàn diện về chất lượng, chi phí và tiến độ, SEV cung cấp giải pháp giá trị cao từ giai đoạn thiết kế cho đến dịch vụ hậu mãi sau vận hành.",
 
   "about_title": "Lĩnh vực hoạt động",
 

@@ -75,10 +75,10 @@ export function HeroSection() {
                     ))}
                   </div>
                   <h1
-                    className="font-display text-5xl md:text-7xl font-bold text-gray-200 leading-[1.1] mb-6"
+                    className="font-display text-5xl md:text-7xl font-bold text-gray-200 leading-[1.1] mb-6 whitespace-pre-line"
                     dangerouslySetInnerHTML={{ __html: slide.title }}
                   />
-                  <p className="text-lg text-gray-200 mb-10 max-w-lg leading-relaxed">
+                  <p className="text-lg text-gray-200 mb-10 max-w-lg leading-relaxed whitespace-pre-line">
                     {slide.desc}
                   </p>
                   {/* <div className="flex flex-wrap gap-4">

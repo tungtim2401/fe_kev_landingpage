@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Globe, Mail, MapPin, Phone } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export default function CtaSection() {
@@ -6,11 +6,11 @@ export default function CtaSection() {
 
   return (
     <>
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-primary/10 skew-x-12 translate-x-1/2" />
+      <div className="absolute top-0 right-0 h-full bg-primary/10 skew-x-12 translate-x-1/2" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10 ">
         <div className="rounded-3xl overflow-hidden shadow-2xl grid md:grid-cols-5 bg-gray-50">
-          <div className="md:col-span-2 bg-gray-50 p-12">
+          <div className="md:col-span-12 bg-gray-50 p-12">
             <h2 className="font-display text-3xl font-bold mb-8 text-gray-200">
               {t("contact_title")}
             </h2>
@@ -50,8 +50,37 @@ export default function CtaSection() {
                     {t("contact_address")}
                   </div>
                   <div className="font-bold text-lg text-gray-300">
-                    Số 6, Đường 2A, KCN Biên Hòa II, Phường Long Hưng, TP. Biên
-                    Hòa, Đồng Nai, Việt Nam
+                    {t("address_detail")}
+                  </div>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-primary">
+                  <Globe size={24} />
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm industrial-gray font-medium text-gray-200">
+                    {t("contact_branch")}
+                  </div>
+                  <div className="font-bold text-lg text-gray-300 flex flex-col gap-2">
+                    <a
+                      href="https://soltec21.co.jp"
+                      className="hover:text-primary transition-colors"
+                    >
+                      https://soltec21.co.jp
+                    </a>
+                    <a
+                      href="https://www.soltecvn.com"
+                      className="hover:text-primary transition-colors"
+                    >
+                      https://www.soltecvn.com
+                    </a>
+                    <a
+                      href="https://soltec-hn.com"
+                      className="hover:text-primary transition-colors"
+                    >
+                      https://soltec-hn.com
+                    </a>
                   </div>
                 </div>
               </div>

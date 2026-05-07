@@ -162,6 +162,10 @@
   "cate_product_20_sub": "14K40",
   "product_20": "65 Tons / Unit",
 
+  "cate_product_21": "COLD BOX",
+  "cate_product_21_sub": "",
+  "product_21": "5 m × 3.2 m × 11.5 m （55.5 Tons）",
+
   "process": "Core Strengths of SEV",
   "process_cap": "Integrated In-House Capability from Design to Installation",
 
@@ -223,5 +227,10 @@
   "support_3": "Warranty Policy",
   "support_4": "Company Profile",
   "support_5": "Careers",
-  "contact_title": "Contact Us for Consultation"
+  "contact_title": "Contact Us for Consultation",
+  "contact_phone": "Phone Number",
+  "contact_email": "Email",
+  "contact_address": "Address",
+  "contact_branch": "Company Branch",
+  "address_detail": "No. 6, Street 2A, Bien Hoa II Industrial Park, Long Hung Ward, Dong Nai City, Vietnam"
 }

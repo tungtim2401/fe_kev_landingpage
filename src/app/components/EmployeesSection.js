@@ -28,7 +28,7 @@ export default function EmployeesSection() {
               <h3 className="font-display text-2xl font-bold text-gray-200 mb-4">
                 {t("ceo_title_small")}
               </h3>
-              <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-200 mb-8 leading-tight">
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-200 mb-8 leading-tight text-primary">
                 <Trans
                   i18nKey="ceo_title_big"
                   components={{
@@ -93,7 +93,7 @@ export default function EmployeesSection() {
               viewport={{ once: true }}
               className="order-1 md:order-2"
             >
-              <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-200 mb-8 leading-tight">
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-200 mb-8 leading-tight text-primary">
                 {t("team_title")}
               </h2>
               <p className="text-industrial-gray text-lg leading-relaxed mb-6">

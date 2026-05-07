@@ -1,6 +1,6 @@
 {
-   "show_less": "Thu gọn",
-    "view_all": "Xem tất cả",
+  "show_less": "Thu gọn",
+  "view_all": "Xem tất cả",
   "lang_vi": "Tiếng Việt",
   "lang_en": "Tiếng Anh",
   "lang_ja": "Tiếng Nhật",
@@ -163,6 +163,10 @@
   "cate_product_20_sub": "14K40",
   "product_20": "65 tấn / máy",
 
+  "cate_product_21": "COLD BOX",
+  "cate_product_21_sub": "",
+  "product_21": "5 m × 3.2 m × 11.5 m （55.5 Tons）",
+
   "process": "Năng lực cốt lõi của SEV",
   "process_cap": "Năng lực triển khai đồng bộ từ thiết kế đến lắp đặt",
 
@@ -204,6 +208,7 @@
   "contact_phone": "Số điện thoại",
   "contact_email": "Email",
   "contact_address": "Địa chỉ",
+  "contact_branch": "Chi nhánh công ty",
 
   "ceo_title_small": "Cam kết của chúng tôi",
   "ceo_title_big": "Bằng kỹ thuật vượt trội, tạo ra giá trị khác biệt mà nơi khác không có.",
@@ -229,5 +234,6 @@
   "support_2": "Tư vấn kỹ thuật",
   "support_3": "Chính sách bảo hành",
   "support_4": "Hồ sơ năng lực",
-  "support_5": "Tuyển dụng"
+  "support_5": "Tuyển dụng",
+  "address_detail": "Số 6, Đường 2A, KCN Biên Hòa II, Phường Long Hưng, TP. Đồng Nai, Việt Nam"
 }

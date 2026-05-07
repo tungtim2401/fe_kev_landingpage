@@ -34,7 +34,7 @@ export default function AboutSection() {
       <div className="relative">
         <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl" />
         <img
-          src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1000"
+          src="/images/3d-sev.png"
           alt="Factory Interior"
           className="rounded-3xl shadow-2xl relative z-10"
           referrerPolicy="no-referrer"

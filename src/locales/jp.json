@@ -11,15 +11,15 @@
   "nav_header_5": "採用情報",
   "nav_header_6_highlight": "お問い合わせ",
 
-  "hero_title_1": "多様な規格・多様な材料に対応する熱交換ソリューション",
+  "hero_title_1": "<span class='text-primary'>多様な規格</span>・\n<span class='text-primary'>多様な材料</span>に\n対応する\n熱交換ソリューション",
   "hero_desc_1": "国際規格および高度な技術要件に応える設計で、産業分野の厳しいニーズに対応します。",
   "hero_tag_1": "熱交換器 ",
 
-  "hero_title_2": "産業プロセス向け塔設備ソリューション",
+  "hero_title_2": "産業プロセス向け\n<span class='text-primary'>塔設備</span>ソリューション",
   "hero_desc_2": "高い性能・耐久性・運転条件への対応力を備えています。 ",
   "hero_tag_2": "カラム／塔設備 ",
 
-  "hero_title_3": "圧力容器",
+  "hero_title_3": "<span class='text-primary'>圧力容器</span>",
   "hero_desc_3": "過酷な運転条件下でも耐久性・安全性・性能を確保するよう設計されています。",
   "hero_tag_3_1": "圧力タンク",
   "hero_tag_3_2": "反応器・分離器",
@@ -162,6 +162,10 @@
   "cate_product_20_sub": "14K40",
   "product_20": "65トン／基",
 
+  "cate_product_21": "コールドボックス",
+  "cate_product_21_sub": "",
+  "product_21": "5 m × 3.2 m × 11.5 m （55.5 Tons）",
+
   "process": "SEVのコア強み",
   "process_cap": "設計から製作・検査・据付までの一貫対応",
 
@@ -222,5 +226,10 @@
   "support_3": "保証ポリシー",
   "support_4": "会社案内",
   "support_5": "採用情報",
-  "contact_title": "お問い合わせ（ご相談）"
+  "contact_title": "お問い合わせ（ご相談）",
+  "contact_phone": "電話番号",
+  "contact_email": "メール",
+  "contact_address": "住所",
+  "contact_branch": "支店情報",
+  "address_detail": "ベトナム国ドンナイ市ロンフン坊ビエンホア第2工業団地 2A通り6番地"
 }

@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="col-span-2">
             <div className="flex items-center gap-2 mb-6">
               <Image
-                src="/images/logo-cut.png"
+                src="/images/logo_new.png"
                 alt=""
                 width={400}
                 height={100}

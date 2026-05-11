@@ -1,5 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+
 
 export default function ProcessSection() {
   const { t } = useTranslation();
@@ -32,7 +34,7 @@ export default function ProcessSection() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-6">
+    <div className="max-w-[84%] mx-auto px-6">
       <div className="text-center max-w-3xl mx-auto mb-20">
         <h2 className="font-display text-4xl font-bold mb-6">{t("process")}</h2>
         <p className="text-white/60 text-lg">{t("process_cap")}</p>
@@ -40,29 +42,24 @@ export default function ProcessSection() {
 
       <div className="grid md:grid-cols-4 gap-4">
         {processSteps.map((step, idx) => (
-          <div key={idx} className="relative group">
-            <div className="relative h-80 rounded-2xl overflow-hidden mb-6">
-              <img
-                src={step.img}
-                alt={step.title}
-                className="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-industrial-blue to-transparent" />
-              <div className="absolute bottom-6 left-6">
-                <div className="text-5xl font-display font-bold text-primary/30 mb-2">
-                  {step.step}
-                </div>
-                <h3 className="text-2xl font-bold">{step.title}</h3>
-              </div>
-            </div>
-            <p className="text-white/60 leading-relaxed px-2">{step.desc}</p>
-            {idx < 3 && (
-              <div className="hidden lg:block absolute top-1/3 -right-4 z-20">
-                <ArrowRight className="text-primary w-8 h-8" />
-              </div>
-            )}
-          </div>
+          <motion.div
+            key={idx}
+            whileHover={{ y: -10 }}
+            className="text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100"
+          >
+            <p className="text-xl font-bold mb-4 text-primary ">
+              {step.title}
+            </p>
+            <p
+              className="text-gray-300 leading-relaxed mb-6 whitespace-pre-line"
+              dangerouslySetInnerHTML={{ __html: step.desc }}
+            ></p>
+            <a
+              href="#"
+              className="text-primary font-bold flex items-center gap-2 group"
+            >
+            </a>
+          </motion.div>
         ))}
       </div>
       <div className="text-center max-w-3xl mx-auto mb-20 mt-10">

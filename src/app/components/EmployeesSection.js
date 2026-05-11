@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Trans, useTranslation } from "react-i18next";
+import RoadMap from "./RoadMap";
 
 export default function EmployeesSection() {
   const { t } = useTranslation();
@@ -67,6 +68,7 @@ export default function EmployeesSection() {
           </div>
         </div>
       </section>
+      <RoadMap/>
       <section className="py-24 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">

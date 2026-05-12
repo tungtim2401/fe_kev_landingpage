@@ -291,23 +291,123 @@
   "detail": "Detail",
   "service_equipment_category": "Equipment Category Supplied",
   "close": "Close",
+  "goal_name_1": "Production Management Department",
+  "sub_goal_name_1_1": "1. Ensure Production Schedule Compliance",
+  "sub_goal_desc_1_1_1": "Monitor and control the production progress of all projects in accordance with the planned schedule.",
+  "sub_goal_desc_1_1_2": "Participate in weekly progress meetings to prevent schedule delays.",
+  "sub_goal_desc_1_1_3": "Submit lightning charts and progress photos according to customer requirements.",
 
-  "goal_name": "PRODUCTION MANAGEMENT DEPARTMENT",
-  "goal_name_1": "Ensure Production Schedule Compliance",
-  "goal_sub_1_1": "Monitor and control the production progress of all projects in accordance with the planned schedule.",
-  "goal_sub_1_2": "Participate in weekly progress meetings to prevent schedule delays.",
-  "goal_sub_1_3": "Submit lightning charts and progress photos according to customer requirements.",
-  "goal_name_2": "Improve Production Quality Control",
-  "goal_sub_2_1": "Cooperate with related departments to strengthen inspections, reduce defects, and improve product quality.",
-  "goal_name_3": "Effective Production Cost Management",
-  "goal_sub_3_1": "Establish labor-hour targets for all projects within one month after receiving orders.",
-  "goal_sub_3_2": "Control budgets and costs in line with the initial plan.",
-  "goal_sub_3_3": "Minimize unplanned and additional costs.",
-  "goal_name_4": "Ensure Workplace Safety",
-  "goal_sub_4_1": "Fully comply with company safety regulations.",
-  "goal_sub_4_2": "Proactively identify and prevent operational risks during production activities.",
-  "goal_name_5": "Improve Skills and Management Capability",
-  "goal_sub_5_1": "Strengthen coordination and collaboration among departments.",
-  "goal_sub_5_2": "Improve reporting quality, documentation, and problem-solving ability.",
-  "goal_sub_5_3": "Continuously enhance professional knowledge and management skills."
+  "sub_goal_name_1_2": "2. Improve Production Quality Control",
+  "sub_goal_desc_1_2_1": "Cooperate with related departments to strengthen inspections, reduce defects, and improve product quality.",
+
+  "sub_goal_name_1_3": "3. Effective Production Cost Management",
+  "sub_goal_desc_1_3_1": "Establish labor-hour targets for all projects within one month after receiving orders.",
+  "sub_goal_desc_1_3_2": "Control budgets and costs in line with the initial plan.",
+  "sub_goal_desc_1_3_3": "Minimize unplanned and additional costs.",
+
+  "sub_goal_name_1_4": "4. Ensure Workplace Safety",
+  "sub_goal_desc_1_4_1": "Fully comply with company safety regulations.",
+  "sub_goal_desc_1_4_2": "Proactively identify and prevent operational risks during production activities.",
+
+  "sub_goal_name_1_5": "5. Improve Skills and Management Capability",
+  "sub_goal_desc_1_5_1": "Strengthen coordination and collaboration among departments.",
+  "sub_goal_desc_1_5_2": "Improve reporting quality, documentation, and problem-solving ability.",
+  "sub_goal_desc_1_5_3": "Continuously enhance professional knowledge and management skills.",
+  "goal_name_2": "Fabrication Department",
+  "sub_goal_name_2_1": "1. Safety & Environment",
+  "sub_goal_desc_2_1_1": "Comply with safety regulations and achieve zero serious work-related accidents.",
+  "sub_goal_desc_2_1_2": "Conduct weekly 5S patrols to maintain a clean and organized workplace.",
+
+  "sub_goal_name_2_2": "2. Quality & Cost",
+  "sub_goal_desc_2_2_1": "Improve product quality and prevent customer complaints causing additional costs.",
+  "sub_goal_desc_2_2_2": "Control fabrication costs.",
+  "sub_goal_desc_2_2_3": "Manage maintenance, repair, and equipment servicing costs effectively.",
+  "sub_goal_desc_2_2_4": "Use consumables and personal protective equipment efficiently.",
+  "sub_goal_desc_2_2_5": "Control fabrication man-hours within the estimated target set by Production Management.",
+
+  "goal_name_3": "QA/QC Department",
+
+  "sub_goal_name_3_1": "1. Defect Control and Recurrence Prevention",
+  "sub_goal_desc_3_1_1": "Conduct strict inspections, identify root causes, and implement countermeasures within 72 hours for NCRs or customer complaints.",
+  "sub_goal_desc_3_1_2": "Target: Fewer than 10 repeat defects and customer complaints per year.",
+
+  "sub_goal_name_3_2": "2. Production Schedule and Coordination Optimization",
+  "sub_goal_desc_3_2_1": "Maintain daily QA/QC reports and coordinate inspections in parallel with production to avoid delays.",
+  "sub_goal_desc_3_2_2": "Production delays caused by inspection: ≤ 2 cases/year.",
+  "sub_goal_desc_3_2_3": "Complete Data Book and ITP within 10 working days after final inspection.",
+
+  "sub_goal_name_3_3": "3. Standard Compliance and Capability Improvement",
+  "sub_goal_desc_3_3_1": "Fully comply with ASME, JIS, and QCVN standards and strengthen communication with customers and third-party inspectors.",
+  "sub_goal_desc_3_3_2": "100% of products pass third-party inspection on the first attempt.",
+  "sub_goal_desc_3_3_3": "Conduct at least 1 internal training session per quarter.",
+  "goal_name_4": "Design Department",
+
+  "sub_goal_name_4_1": "1. Schedule & Quality",
+  "sub_goal_desc_4_1_1": "Ensure design schedule compliance; project delays must not exceed 7 days, with ≤ 1 delay case per quarter.",
+  "sub_goal_desc_4_1_2": "Reduce design defects to ≤ 4 cases/quarter and customer complaints to ≤ 3 cases/year.",
+
+  "sub_goal_name_4_2": "2. April 2026 Performance",
+  "sub_goal_desc_4_2_1": "Design delays over 7 days: 0 cases.",
+  "sub_goal_desc_4_2_2": "Non-conformities (NCR): 0 cases.",
+  "sub_goal_desc_4_2_3": "Customer complaints: 0 cases.",
+
+  "sub_goal_name_4_3": "3. 2026 Cumulative Result",
+  "sub_goal_desc_4_3_1": "Design delays over 7 days: 0 cases.",
+  "sub_goal_desc_4_3_2": "Non-conformities (NCR): 0 cases.",
+  "sub_goal_desc_4_3_3": "Customer complaints: 0 cases.",
+
+  "goal_name_5": "General Affairs Department",
+
+  "sub_goal_name_5_1": "1. Standardize Administrative Operations",
+  "sub_goal_desc_5_1_1": "Standardize and improve administrative operations.",
+  "sub_goal_desc_5_1_2": "Improve vehicle management procedures and internal forms.",
+  "sub_goal_desc_5_1_3": "Ensure documents are properly stored and easily accessible.",
+
+  "sub_goal_name_5_2": "2. Improve Working Environment and Internal Support",
+  "sub_goal_desc_5_2_1": "Maintain a clean, safe, and efficient workplace.",
+  "sub_goal_desc_5_2_2": "Enhance facility, logistics, and internal support services.",
+
+  "sub_goal_name_5_3": "3. Strengthen Safety and Fire Prevention Activities",
+  "sub_goal_desc_5_3_1": "Conduct regular inspections on safety, fire prevention, and security.",
+  "sub_goal_desc_5_3_2": "Ensure all required documents, signs, and equipment are properly maintained.",
+
+  "goal_name_6": "Human Resources Department",
+
+  "sub_goal_name_6_1": "1. Standardization & Improvement",
+  "sub_goal_desc_6_1_1": "Standardize company regulations, policies, and benefits in compliance with labor laws and company culture.",
+  "sub_goal_desc_6_1_2": "Improve the Mankichi payroll system to ensure fast, accurate payroll processing and convenient employee access to attendance, leave, and salary information.",
+
+  "sub_goal_name_6_2": "2. Evaluation & Cost Control",
+  "sub_goal_desc_6_2_1": "Develop a fair and transparent employee evaluation system and properly manage labor discipline procedures.",
+  "sub_goal_desc_6_2_2": "Optimize and control operational costs related to office supplies, office equipment, and other related expenses.",
+
+  "goal_name_7": "Accounting Team",
+
+  "sub_goal_name_7_1": "1. Accuracy & Speed",
+  "sub_goal_desc_7_1_1": "Improve accuracy and reduce data entry errors.",
+  "sub_goal_desc_7_1_2": "Increase the speed of accounting data processing and updating.",
+  "sub_goal_desc_7_1_3": "Improve project cost control and actual man-hour management.",
+
+  "sub_goal_name_7_2": "2. Reporting Application",
+  "sub_goal_desc_7_2_1": "Enhance the quality and practical use of internal management reports.",
+
+  "goal_name_8": "SEV Sales Department",
+
+  "sub_goal_name_8_1": "1. Market & Revenue",
+  "sub_goal_desc_8_1_1": "Expand domestic customers and markets in pressure vessels, heat exchangers, towers, and steel structures.",
+  "sub_goal_desc_8_1_2": "Increase sales revenue and profitability through cost control, quotation management, and project efficiency improvement.",
+
+  "sub_goal_name_8_2": "2. Customer Care & Capability",
+  "sub_goal_desc_8_2_1": "Improve customer service quality by ensuring fast response and on-time support.",
+  "sub_goal_desc_8_2_2": "Enhance sales capability, language skills, and project management skills for the sales team.",
+
+  "goal_name_9": "Purchasing Department",
+
+  "sub_goal_name_9_1": "1. Schedule & Quality",
+  "sub_goal_desc_9_1_1": "Ensure on-time purchasing in compliance with technical requirements; non-conformity rate ≤ 5%.",
+  "sub_goal_desc_9_1_2": "Control delivery schedules with delayed deliveries ≤ 3 orders/year.",
+
+  "sub_goal_name_9_2": "2. Cost Optimization",
+  "sub_goal_desc_9_2_1": "Optimize purchasing, material, and outsourcing costs; actual costs to be at least 3% lower than estimated costs for each project.",
+  "sub_goal_desc_9_2_2": "Supply materials with the best quality and competitive pricing to maximize company benefits."
 }

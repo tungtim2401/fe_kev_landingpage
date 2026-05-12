@@ -174,7 +174,7 @@ export default function ServicesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              onClick={() => setActiveIndustry(idx)}
+              onClick={() => setActiveService(idx)}
               className="group bg-white rounded-[2rem] p-8 shadow-sm hover:shadow-2xl transition-all duration-500 border border-gray-100 flex flex-col h-full cursor-pointer relative overflow-hidden"
             >
               {/* Decorative Pattern Background */}
@@ -215,8 +215,8 @@ export default function ServicesSection() {
 
                 <div className="mt-auto pt-6 border-t border-gray-50 flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                    {/* <span className="text-[10px] font-bold text-industrial-blue uppercase tracking-widest">
+                    {/* <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                    <span className="text-[10px] font-bold text-industrial-blue uppercase tracking-widest">
                       ASME Standards
                     </span> */}
                   </div>
@@ -233,7 +233,7 @@ export default function ServicesSection() {
 
       {/* Industry Detail Modal */}
       <AnimatePresence>
-        {activeService && activeService !== -1 && (
+        {activeService !== null && activeService !== -1 && (
           <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-10">
             <motion.div
               initial={{ opacity: 0 }}

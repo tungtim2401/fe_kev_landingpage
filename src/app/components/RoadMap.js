@@ -55,178 +55,167 @@ export default function RoadMap() {
     },
     {
       id: "fabrication",
-      name: t("goal_name_4"),
+      name: t("goal_name_2"),
       icon: <Wrench className="w-6 h-6" />,
       color: "orange",
       objectives: [
         {
-          title: t("goal_name_5"),
+          title: t("sub_goal_name_2_1"),
           items: [t("sub_goal_desc_2_1_1"), t("sub_goal_desc_2_1_2")],
         },
         {
-          title: t("goal_name_6"),
+          title: t("sub_goal_name_2_2"),
           items: [
-            t("sub_goal_desc_2_1_3"),
-            t("sub_goal_desc_2_1_4"),
-            t("sub_goal_desc_2_1_5"),
-            t("sub_goal_desc_2_1_6"),
+            t("sub_goal_desc_2_2_1"),
+            t("sub_goal_desc_2_2_2"),
+            t("sub_goal_desc_2_2_3"),
+            t("sub_goal_desc_2_2_4"),
+            t("sub_goal_desc_2_2_5"),
           ],
         },
       ],
     },
     {
       id: "qa-qc",
-      name: t("goal_name_7"),
+      name: t("goal_name_3"),
       icon: <SearchCheck className="w-6 h-6" />,
       color: "green",
       objectives: [
         {
-          title: t("goal_name_8"),
+          title: t("sub_goal_name_3_1"),
           items: [t("sub_goal_desc_3_1_1"), t("sub_goal_desc_3_1_2")],
         },
         {
-          title: t("goal_name_9"),
-          items: [t("sub_goal_desc_3_1_3"), t("sub_goal_desc_3_1_4")],
+          title: t("sub_goal_name_3_2"),
+          items: [t("sub_goal_desc_3_2_1"), t("sub_goal_desc_3_2_2")],
         },
         {
-          title: t("goal_name_10"),
-          items: [t("sub_goal_desc_3_1_5"), t("sub_goal_desc_3_1_6")],
+          title: t("sub_goal_name_3_3"),
+          items: [
+            t("sub_goal_desc_3_3_1"),
+            t("sub_goal_desc_3_3_2"),
+            t("sub_goal_desc_3_3_3"),
+          ],
         },
       ],
     },
     {
       id: "design",
-      name: t("goal_name_11"),
+      name: t("goal_name_4"),
       icon: <PencilRuler className="w-6 h-6" />,
       color: "purple",
       objectives: [
         {
-          title: t("goal_name_12"),
+          title: t("sub_goal_name_4_1"),
           items: [t("sub_goal_desc_4_1_1"), t("sub_goal_desc_4_1_2")],
         },
+
+        {
+          title: t("sub_goal_name_4_2"),
+          items: [
+            t("sub_goal_desc_4_2_1"),
+            t("sub_goal_desc_4_2_2"),
+            t("sub_goal_desc_4_2_3"),
+          ],
+        },
+        {
+          title: t("sub_goal_name_4_3"),
+          items: [
+            t("sub_goal_desc_4_3_1"),
+            t("sub_goal_desc_4_3_2"),
+            t("sub_goal_desc_4_3_3"),
+          ],
+        },
       ],
-      currentStatus: {
-        month: "Tháng 04/2026",
-        data: [
-          {
-            label: "Trễ tiến độ > 7 ngày",
-            value: 0,
-            target: "≤ 1",
-          },
-          {
-            label: "Lỗi không phù hợp (KPH)",
-            value: 0,
-            target: "≤ 4",
-          },
-          {
-            label: "Khiếu nại (KNKH)",
-            value: 0,
-            target: "≤ 3",
-            value: 0,
-            target: "≤ 3",
-          },
-        ],
-      },
     },
     {
       id: "admin",
-      name: t("goal_name_13"),
+      name: t("goal_name_5"),
       icon: <LayoutList className="w-6 h-6" />,
       color: "gray",
       objectives: [
         {
-          title: t("goal_name_14"),
+          title: t("sub_goal_name_5_1"),
           items: [t("sub_goal_desc_5_1_1"), t("sub_goal_desc_5_1_2")],
         },
         {
-          title: t("goal_name_15"),
-          items: [t("sub_goal_desc_5_1_3"), t("sub_goal_desc_5_1_4")],
+          title: t("sub_goal_name_5_2"),
+          items: [t("sub_goal_desc_5_2_1"), t("sub_goal_desc_5_2_2")],
+        },
+        {
+          title: t("sub_goal_name_5_3"),
+          items: [t("sub_goal_desc_5_3_1"), t("sub_goal_desc_5_3_2")],
         },
       ],
     },
     {
       id: "hr",
-      name: t("goal_name_16"),
+      name: t("goal_name_6"),
       icon: <Users className="w-6 h-6" />,
       color: "pink",
       objectives: [
         {
-          title: t("goal_name_17"),
-          items: ["Chuẩn hóa & Cải tiến"],
-          items: [
-            "Chuẩn hóa nội quy phù hợp pháp luật và văn hóa công ty.",
-            "Cải tiến phần mềm Mankichi: đúng, nhanh, thuận tiện.",
-          ],
+          title: t("sub_goal_name_6_1"),
+          items: [t("sub_goal_desc_6_1_1"), t("sub_goal_desc_6_1_2")],
         },
         {
-          title: t("goal_name_18"),
+          title: t("sub_goal_name_6_2"),
           items: [
-            "Hệ thống đánh giá công bằng, minh bạch.",
-            "Kiểm soát chi phí vận hành: VPP, thiết bị văn phòng.",
+            t("sub_goal_desc_6_2_1"),
+            t("sub_goal_desc_6_2_2"),
           ],
         },
       ],
     },
     {
       id: "accounting",
-      name: t("goal_name_19"),
+      name: t("goal_name_7"),
       icon: <Calculator className="w-6 h-6" />,
       color: "cyan",
       objectives: [
         {
-          title: t("goal_name_20"),
+          title: t("sub_goal_name_7_1"),
           items: [
-            "Giảm lỗi nhập liệu, tăng tốc xử lý dữ liệu.",
-            "Cải thiện quản lý giá thành dự án và giờ công thực tế.",
+            t("sub_goal_desc_7_1_1"),
+            t("sub_goal_desc_7_1_2"),
+            t("sub_goal_desc_7_1_3"),
           ],
         },
         {
-          title: t("goal_name_21"),
-          items: ["Nâng cao chất lượng và tính ứng dụng của báo cáo nội bộ."],
+          title: t("sub_goal_name_7_2"),
+          items: [t("sub_goal_desc_7_2_1")],
         },
       ],
     },
     {
       id: "sales",
-      name: t("goal_name_22"),
+      name: t("goal_name_8"),
       icon: <Globe className="w-6 h-6" />,
       color: "emerald",
       objectives: [
         {
-          title: "Thị trường & Doanh thu",
-          items: [
-            "Mở rộng khách hàng thiết bị áp lực, heat exchanger, kết cấu thép.",
-            "Tăng lợi nhuận qua kiểm soát giá thành và tối ưu hiệu quả dự án.",
-          ],
+          title: t("sub_goal_name_8_1"),
+          items: [t("sub_goal_desc_8_1_1"), t("sub_goal_desc_8_1_2")],
         },
         {
-          title: "Chăm sóc & Năng lực",
-          items: [
-            "Phản hồi khách hàng nhanh chóng, đúng tiến độ.",
-            "Nâng cao kỹ năng Sales, ngoại ngữ và quản lý dự án.",
-          ],
+          title: t("sub_goal_name_8_2"),
+          items: [t("sub_goal_desc_8_2_1"), t("sub_goal_desc_8_2_2")],
         },
       ],
     },
     {
       id: "purchasing",
-      name: t("goal_name_23"),
+      name: t("goal_name_9"),
       icon: <Wallet className="w-6 h-6" />,
       color: "amber",
       objectives: [
         {
-          title: t("goal_name_24"),
-          items: [
-            "Đảm bảo mua hàng đúng kỹ thuật; tỷ lệ KPH ≤ 5%.",
-            "Giao hàng đúng tiến độ; số đơn trễ ≤ 3 đơn/năm.",
-          ],
+          title: t("sub_goal_name_9_1"),
+          items: [t("sub_goal_desc_9_1_1"), t("sub_goal_desc_9_1_2")],
         },
         {
-          title: t("goal_name_25"),
-          items: [
-            "Chi phí thực tế thấp hơn dự toán tối thiểu 3% mỗi đơn hàng.",
-            "Đảm bảo giá thành cạnh tranh mang lại lợi ích cao nhất.",
-          ],
+          title: t("sub_goal_name_9_2"),
+          items: [t("sub_goal_desc_9_2_1"), t("sub_goal_desc_9_2_2")],
         },
       ],
     },
@@ -299,7 +288,6 @@ export default function RoadMap() {
                     <h3 className="text-2xl md:text-3xl font-bold text-industrial-blue">
                       {departmentalGoals[activeGoalTab].name}
                     </h3>
-                  
                   </div>
                 </div>
 
@@ -394,7 +382,6 @@ export default function RoadMap() {
                     </div>
                   </motion.div>
                 )}
-
               </motion.div>
             </AnimatePresence>
           </div>

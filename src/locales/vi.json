@@ -318,10 +318,100 @@
   "sub_goal_desc_1_5_3": "Không ngừng học hỏi, nâng cao tay nghề và kỹ năng quản lý.",
 
   "goal_name_2": "Phòng Chế Tạo",
-  "sub_goal_desc_2_1_1": "Tuân thủ quy định an toàn và đạt mục tiêu không có tai nạn lao động nghiêm trọng.",
-  "sub_goal_desc_2_1_2": "Thực hiện tuần tra 5S hàng tuần nhằm duy trì môi trường làm việc sạch sẽ và ngăn nắp.",
-  "sub_goal_desc_2_1_3": "Nâng cao chất lượng sản phẩm và ngăn ngừa khiếu nại khách hàng gây phát sinh chi phí.",
-  "sub_goal_desc_2_1_4": "Kiểm soát hiệu quả chi phí bảo trì, sửa chữa và bảo dưỡng thiết bị.",
-  "sub_goal_desc_2_1_5": "Sử dụng vật tư tiêu hao và trang bị bảo hộ lao động một cách hiệu quả.",
-  "sub_goal_desc_2_1_6": "Kiểm soát giờ công chế tạo trong phạm vi mục tiêu do Phòng Quản lý Sản xuất đề ra."
+  "sub_goal_name_2_1": "1. An toàn & Môi trường",
+  "sub_goal_desc_2_1_1": "Tuân thủ an toàn lao động, không để xảy ra tai nạn lao động nghiêm trọng.",
+  "sub_goal_desc_2_1_2": "Thực hiện tuần tra 5S hằng tuần, duy trì môi trường làm việc sạch sẽ và ngăn nắp.",
+
+  "sub_goal_name_2_2": "2. Chất lượng & Chi phí",
+  "sub_goal_desc_2_2_1": "Nâng cao chất lượng sản phẩm, không để phát sinh khiếu nại khách hàng gây tổn thất chi phí.",
+  "sub_goal_desc_2_2_2": "Kiểm soát chi phí chế tạo.",
+  "sub_goal_desc_2_2_3": "Quản lý hiệu quả chi phí bảo trì, sửa chữa và bảo dưỡng thiết bị.",
+  "sub_goal_desc_2_2_4": "Sử dụng tiết kiệm vật tư tiêu hao và bảo hộ lao động.",
+  "sub_goal_desc_2_2_5": "Kiểm soát giờ công chế tạo không vượt dự toán của QLSX.",
+
+  "goal_name_3": "Bộ phận QA/QC",
+
+  "sub_goal_name_3_1": "1. Kiểm soát lỗi và phòng ngừa tái diễn",
+  "sub_goal_desc_3_1_1": "Thực hiện kiểm tra nghiêm ngặt, điều tra nguyên nhân gốc rễ và triển khai đối sách trong vòng 72 giờ đối với NCR hoặc khiếu nại.",
+  "sub_goal_desc_3_1_2": "Mục tiêu: Lỗi lặp lại và khiếu nại khách hàng dưới 10 trường hợp/năm.",
+
+  "sub_goal_name_3_2": "2. Tối ưu tiến độ và phối hợp sản xuất",
+  "sub_goal_desc_3_2_1": "Duy trì báo cáo QA/QC hằng ngày và phối hợp kiểm tra song song với sản xuất để không gây chậm tiến độ.",
+  "sub_goal_desc_3_2_2": "Trễ tiến độ do kiểm tra ≤ 2 trường hợp/năm.",
+  "sub_goal_desc_3_2_3": "Hoàn thành Data Book và ITP trong vòng 10 ngày làm việc sau kiểm tra cuối cùng.",
+
+  "sub_goal_name_3_3": "3. Chuẩn hóa năng lực theo tiêu chuẩn",
+  "sub_goal_desc_3_3_1": "Tuân thủ tiêu chuẩn ASME, JIS, QCVN và nâng cao năng lực làm việc với khách hàng, bên thứ ba.",
+  "sub_goal_desc_3_3_2": "100% sản phẩm đạt kiểm tra bên thứ ba ngay lần đầu.",
+  "sub_goal_desc_3_3_3": "Tổ chức ít nhất 1 buổi đào tạo nội bộ mỗi quý.",
+  "goal_name_4": "Phòng Thiết Kế",
+
+  "sub_goal_name_4_1": "1. Tiến độ & Chất lượng",
+  "sub_goal_desc_4_1_1": "Đảm bảo tiến độ thiết kế, các dự án không trễ quá 7 ngày; số vụ trễ tiến độ ≤ 1 vụ/quý.",
+  "sub_goal_desc_4_1_2": "Giảm lỗi thiết kế ≤ 4 vụ/quý và khiếu nại khách hàng ≤ 3 vụ/năm.",
+
+  "sub_goal_name_4_2": "2. Tình trạng thực hiện tháng 4/2026",
+  "sub_goal_desc_4_2_1": "Trễ tiến độ thiết kế quá 7 ngày: 0 vụ.",
+  "sub_goal_desc_4_2_2": "Lỗi không phù hợp (KPH): 0 vụ.",
+  "sub_goal_desc_4_2_3": "Khiếu nại khách hàng (KNKH): 0 vụ.",
+
+  "sub_goal_name_4_3": "3. Lũy kế năm 2026",
+  "sub_goal_desc_4_3_1": "Trễ tiến độ thiết kế quá 7 ngày: 0 vụ.",
+  "sub_goal_desc_4_3_2": "Lỗi không phù hợp (KPH): 0 vụ.",
+  "sub_goal_desc_4_3_3": "Khiếu nại khách hàng (KNKH): 0 vụ.",
+
+  "goal_name_5": "Phòng Tổng Vụ",
+
+  "sub_goal_name_5_1": "1. Chuẩn hóa hành chính",
+  "sub_goal_desc_5_1_1": "Chuẩn hóa và nâng cao hiệu quả công tác hành chính – tổng vụ.",
+  "sub_goal_desc_5_1_2": "Hoàn thiện quy trình quản lý xe và biểu mẫu nội bộ.",
+  "sub_goal_desc_5_1_3": "Đảm bảo lưu trữ hồ sơ đầy đủ, khoa học và dễ truy xuất.",
+
+  "sub_goal_name_5_2": "2. Cải thiện môi trường làm việc và hỗ trợ nội bộ",
+  "sub_goal_desc_5_2_1": "Duy trì môi trường làm việc sạch sẽ, an toàn và đáp ứng nhu cầu hoạt động.",
+  "sub_goal_desc_5_2_2": "Nâng cao chất lượng hỗ trợ cơ sở vật chất và hậu cần cho các phòng ban.",
+
+  "sub_goal_name_5_3": "3. Tăng cường công tác an toàn và PCCC",
+  "sub_goal_desc_5_3_1": "Phối hợp kiểm tra định kỳ về an toàn lao động, PCCC và an ninh.",
+  "sub_goal_desc_5_3_2": "Đảm bảo đầy đủ hồ sơ, biển báo và trang thiết bị theo quy định.",
+
+  "goal_name_6": "Phòng Nhân Sự",
+
+  "sub_goal_name_6_1": "1. Chuẩn hóa & Cải tiến",
+  "sub_goal_desc_6_1_1": "Chuẩn hóa nội quy, quy định và chế độ công ty phù hợp với pháp luật và văn hóa doanh nghiệp.",
+  "sub_goal_desc_6_1_2": "Cải tiến phần mềm tính lương Mankichi nhằm đảm bảo chấm công, tính lương nhanh chóng, chính xác và thuận tiện cho người lao động theo dõi.",
+
+  "sub_goal_name_6_2": "2. Đánh giá & Chi phí",
+  "sub_goal_desc_6_2_1": "Xây dựng hệ thống đánh giá nhân sự công bằng, minh bạch và thực hiện đúng quy định về kỷ luật lao động.",
+  "sub_goal_desc_6_2_2": "Tối ưu và kiểm soát các chi phí vận hành như văn phòng phẩm, thiết bị văn phòng và các chi phí liên quan.",
+
+  "goal_name_7": "Nhóm Kế Toán",
+
+  "sub_goal_name_7_1": "1. Chính xác & Tốc độ",
+  "sub_goal_desc_7_1_1": "Nâng cao độ chính xác và giảm lỗi nhập liệu.",
+  "sub_goal_desc_7_1_2": "Tăng tốc độ xử lý và cập nhật dữ liệu kế toán.",
+  "sub_goal_desc_7_1_3": "Cải thiện công tác quản lý giá thành dự án và giờ công thực tế.",
+
+  "sub_goal_name_7_2": "2. Ứng dụng báo cáo",
+  "sub_goal_desc_7_2_1": "Nâng cao chất lượng và tính ứng dụng của báo cáo nội bộ phục vụ công tác quản lý.",
+
+  "goal_name_8": "Phòng Kinh Doanh SEV",
+
+  "sub_goal_name_8_1": "1. Thị trường & Doanh thu",
+  "sub_goal_desc_8_1_1": "Mở rộng khách hàng và thị trường trong nước trong lĩnh vực thiết bị áp lực, heat exchanger, tower và kết cấu thép.",
+  "sub_goal_desc_8_1_2": "Tăng doanh thu và lợi nhuận thông qua kiểm soát giá thành, quản lý báo giá và tối ưu hiệu quả dự án.",
+
+  "sub_goal_name_8_2": "2. Chăm sóc & Năng lực",
+  "sub_goal_desc_8_2_1": "Nâng cao chất lượng chăm sóc khách hàng, đảm bảo phản hồi nhanh chóng và đúng tiến độ.",
+  "sub_goal_desc_8_2_2": "Tăng cường năng lực sales, ngoại ngữ và kỹ năng quản lý dự án cho đội ngũ kinh doanh.",
+
+  "goal_name_9": "Phòng Mua Hàng",
+
+  "sub_goal_name_9_1": "1. Tiến độ & Chất lượng",
+  "sub_goal_desc_9_1_1": "Đảm bảo mua hàng đúng tiến độ, đúng yêu cầu kỹ thuật; tỷ lệ phát sinh không phù hợp ≤ 5%.",
+  "sub_goal_desc_9_1_2": "Kiểm soát tiến độ giao hàng, số đơn hàng giao trễ ≤ 3 đơn/năm.",
+
+  "sub_goal_name_9_2": "2. Tối ưu chi phí",
+  "sub_goal_desc_9_2_1": "Tối ưu chi phí mua hàng, nguyên vật liệu và gia công ngoài; chi phí thực tế thấp hơn dự toán tối thiểu 3% cho mỗi đơn hàng.",
+  "sub_goal_desc_9_2_2": "Đảm bảo cung cấp vật tư với chất lượng tốt và giá thành cạnh tranh nhằm mang lại lợi ích cao nhất cho công ty."
 }

@@ -37,11 +37,7 @@ export default function RoadMap() {
         },
         {
           title: t("sub_goal_name_1_2"),
-          items: [
-            t("sub_goal_desc_1_2_1"),
-            t("sub_goal_desc_1_2_2"),
-            t("sub_goal_desc_1_2_3"),
-          ],
+          items: [t("sub_goal_desc_1_2_1")],
         },
         {
           title: t("sub_goal_name_1_3"),
@@ -160,10 +156,7 @@ export default function RoadMap() {
         },
         {
           title: t("sub_goal_name_6_2"),
-          items: [
-            t("sub_goal_desc_6_2_1"),
-            t("sub_goal_desc_6_2_2"),
-          ],
+          items: [t("sub_goal_desc_6_2_1"), t("sub_goal_desc_6_2_2")],
         },
       ],
     },
@@ -230,7 +223,7 @@ export default function RoadMap() {
               2026 ROADMAP
             </div>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-industrial-blue leading-tight">
-              {"Mục Tiêu Chiến Lược 2026"}
+              {t("goal_title")}
             </h2>
           </div>
         </div>

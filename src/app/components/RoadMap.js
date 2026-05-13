@@ -165,7 +165,7 @@ export default function RoadMap() {
       name: t("goal_name_6"),
       icon: <Users className="w-6 h-6" />,
       color: "pink",
-      images: ["/images/roadmap/Phòng Chế Tạo/ns.png"],
+      images: ["/images/roadmap/Phòng Chế Tạo/ns.jpg"],
       objectives: [
         {
           title: t("sub_goal_name_6_1"),

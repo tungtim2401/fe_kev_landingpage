@@ -143,7 +143,7 @@ export default function RoadMap() {
       name: t("goal_name_5"),
       icon: <LayoutList className="w-6 h-6" />,
       color: "gray",
-      // images: ["/images/roadmap/Phòng Tổng vụ/8 (5).png", "/images/roadmap/Phòng Tổng vụ/8 (12).png"],
+      images: ["/images/roadmap/Phòng Tổng vụ/tv.jpg"],
       objectives: [
         {
           title: t("sub_goal_name_5_1"),

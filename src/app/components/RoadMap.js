@@ -165,7 +165,7 @@ export default function RoadMap() {
       name: t("goal_name_6"),
       icon: <Users className="w-6 h-6" />,
       color: "pink",
-      images: ["/images/roadmap/Phòng Nhân sự/ns.png"],
+      images: ["/images/roadmap/Phòng Chế Tạo/ns.png"],
       objectives: [
         {
           title: t("sub_goal_name_6_1"),
@@ -204,8 +204,8 @@ export default function RoadMap() {
       icon: <Globe className="w-6 h-6" />,
       color: "emerald",
       images: [
-        "/images/roadmap/Phòng Kinh doanh/kd1.jpg",
-        "/images/roadmap/Phòng Kinh doanh/kd2.jpg",
+        "/images/roadmap/Phòng Chế tạo/kd1.jpg",
+        "/images/roadmap/Phòng Chế tạo/kd2.jpg",
       ],
       objectives: [
         {
@@ -223,7 +223,7 @@ export default function RoadMap() {
       name: t("goal_name_9"),
       icon: <Wallet className="w-6 h-6" />,
       color: "amber",
-      images: ["/images/roadmap/Phòng Mua hàng/8 (3).png"],
+      images: ["/images/roadmap/Phòng Chế tạo/muahang.png"],
       objectives: [
         {
           title: t("sub_goal_name_9_1"),

@@ -204,8 +204,8 @@ export default function RoadMap() {
       icon: <Globe className="w-6 h-6" />,
       color: "emerald",
       images: [
-        "/images/roadmap/Phòng Kinh doanh/kd1.png",
-        "/images/roadmap/Phòng Kinh doanh/kd2.png",
+        "/images/roadmap/Phòng Kinh doanh/kd1.jpg",
+        "/images/roadmap/Phòng Kinh doanh/kd2.jpg",
       ],
       objectives: [
         {

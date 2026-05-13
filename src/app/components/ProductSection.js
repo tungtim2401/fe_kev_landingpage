@@ -287,7 +287,7 @@ export default function ProductSection() {
                     <img
                       src={item}
                       alt={product.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-500"
                     />
                     <button
                       onClick={(e) => {

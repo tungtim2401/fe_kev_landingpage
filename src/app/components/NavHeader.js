@@ -73,133 +73,177 @@ export function NavHeader({
 
   return (
     <>
-      <nav
+  <nav
+    className={cn(
+      "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+      scrolled
+        ? "bg-white/90 backdrop-blur-md shadow-sm py-3"
+        : "bg-transparent py-4",
+    )}
+  >
+    <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+      {/* Logo */}
+      <div className="flex items-center gap-2 shrink-0">
+        <Image
+          src="/images/logo_new.png"
+          alt="Hero"
+          width={300}
+          height={50}
+          className="w-auto h-10 md:h-12 object-contain"
+          priority
+        />
+      </div>
+
+      {/* Desktop Menu */}
+      <div
         className={cn(
-          "fixed top-0 w-full z-50 transition-all duration-300 px-8 py-4",
-          scrolled
-            ? "bg-white/90 backdrop-blur-md shadow-sm py-3"
-            : "bg-transparent",
+          "hidden md:flex items-center gap-8 font-medium transition-colors duration-300",
+          scrolled ? "text-industrial-gray" : "text-white/90",
         )}
       >
-        <div className="mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/images/logo_new.png"
-              alt="Hero"
-              width={300}
-              height={50}
-            />
-          </div>
+        <Link
+          className="hover:text-primary transition-colors text-[16px]"
+          href="#ceo"
+          onClick={() => handleScroll("ceo")}
+        >
+          {t("nav_header_1")}
+        </Link>
 
-          {/* Desktop Menu */}
+        <Link
+          className="hover:text-primary transition-colors text-[16px]"
+          href="#process"
+          onClick={() => handleScroll("process")}
+        >
+          {t("nav_header_2")}
+        </Link>
+
+        <Link
+          className="hover:text-primary transition-colors text-[16px]"
+          href="#services"
+          onClick={() => handleScroll("services")}
+        >
+          {t("nav_header_3")}
+        </Link>
+
+        <Link
+          className="hover:text-primary transition-colors text-[16px]"
+          href="#products"
+          onClick={() => handleScroll("products")}
+        >
+          {t("nav_header_4")}
+        </Link>
+
+        <Link
+          className="hover:text-primary transition-colors text-[16px]"
+          href="#team"
+          onClick={() => handleScroll("team")}
+        >
+          {t("nav_header_5")}
+        </Link>
+
+        {/* CTA */}
+        <Link
+          href="#contact"
+          className="px-5 py-2.5 bg-primary text-white rounded-full hover:bg-red-600 transition-all shadow-lg"
+          onClick={() => handleScroll("contact")}
+        >
+          {t("nav_header_6_highlight")}
+        </Link>
+
+        {/* Language */}
+        <Dropdown
+          menu={{ items: items_lang, onClick: onChangeLang }}
+          placement="bottomRight"
+        >
           <div
             className={cn(
-              "hidden md:flex items-center gap-8 font-medium",
-              scrolled ? "text-gray-200" : "text-white/90",
+              "flex gap-2 items-center justify-center hover:text-primary transition-colors cursor-pointer px-2 py-1 rounded-md border border-transparent hover:border-primary/20",
+              scrolled
+                ? "text-industrial-gray"
+                : "text-white/90",
             )}
           >
-            <Link
-              className="hover:text-primary transition-colors text-[18px]"
-              href="#nav_header_1"
-              onClick={() => handleScroll("nav_header_1")}
-            >
-              {t("nav_header_1")}
-            </Link>
-            <Link
-              className="hover:text-primary transition-colors text-[18px]"
-              href="#nav_header_2"
-              onClick={() => handleScroll("nav_header_2")}
-            >
-              {t("nav_header_2")}
-            </Link>
-            <Link
-              className="hover:text-primary transition-colors text-[18px]"
-              href="#nav_header_3"
-              onClick={() => handleScroll("nav_header_3")}
-            >
-              {t("nav_header_3")}
-            </Link>
-            <Link
-              className="hover:text-primary transition-colors text-[18px]"
-              href="#nav_header_4"
-              onClick={() => handleScroll("nav_header_4")}
-            >
-              {t("nav_header_4")}
-            </Link>
-            <Link
-              className="hover:text-primary transition-colors text-[18px]"
-              href="#nav_header_5"
-              onClick={() => handleScroll("nav_header_5")}
-            >
-              {t("nav_header_5")}
-            </Link>
-
-            <Link
-              href="#nav_header_6_highlight"
-              className="px-5 py-2.5 bg-primary text-white rounded-full hover:bg-red-600 transition-all"
-              onClick={() => handleScroll("nav_header_6_highlight")}
-            >
-              {t("nav_header_6_highlight")}
-            </Link>
-            <Dropdown
-              menu={{ items: items_lang, onClick: onChangeLang }}
-              placement="bottom"
-            >
-              <div
-                className={cn(
-                  "flex gap-2 items-center justify-center hover:text-primary",
-                  scrolled ? "industrial-gray" : "text-white/90",
-                )}
-              >
-                <GlobalOutlined />
-                {t(`${lang.toLocaleUpperCase()}`)}
-              </div>
-            </Dropdown>
+            <GlobalOutlined />
+            <span className="text-sm font-bold">
+              {t(`${lang.toLocaleUpperCase()}`)}
+            </span>
           </div>
+        </Dropdown>
+      </div>
 
-          {/* Mobile Toggle */}
-          <button
-            className="md:hidden text-primary"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
-        </div>
-      </nav>
-      {/* Mobile Menu Overlay */}
-      <AnimatePresence>
-        {isMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="fixed inset-0 z-40 bg-white pt-24 px-6 flex flex-col gap-6 text-xl font-bold md:hidden"
-          >
-            <a href="#about" onClick={() => setIsMenuOpen(false)}>
-              {t("nav_header_1")}
-            </a>
-            <a href="#services" onClick={() => setIsMenuOpen(false)}>
-              {t("nav_header_2")}
-            </a>
-            <a href="#projects" onClick={() => setIsMenuOpen(false)}>
-              {t("nav_header_3")}
-            </a>
-            <a href="#process" onClick={() => setIsMenuOpen(false)}>
-              {t("nav_header_4")}
-            </a>
-            <a href="#process" onClick={() => setIsMenuOpen(false)}>
-              {t("nav_header_5")}
-            </a>
-            <a
-              href="#contact"
-              className="text-primary"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {t("nav_header_6_highlight")}
-            </a>
-          </motion.div>
+      {/* Mobile Toggle */}
+      <button
+        className={cn(
+          "md:hidden transition-colors",
+          scrolled ? "text-industrial-blue" : "text-white",
         )}
-      </AnimatePresence>
-    </>
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+      </button>
+    </div>
+  </nav>
+
+  {/* Mobile Menu Overlay */}
+  <AnimatePresence>
+    {isMenuOpen && (
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -20 }}
+        transition={{ duration: 0.25 }}
+        className="fixed inset-0 z-40 bg-white pt-24 px-6 flex flex-col gap-6 text-xl font-bold md:hidden overflow-y-auto"
+      >
+        <a
+          href="#ceo"
+          onClick={() => setIsMenuOpen(false)}
+          className="text-industrial-blue hover:text-primary transition-colors"
+        >
+          {t("nav_header_1")}
+        </a>
+
+        <a
+          href="#process"
+          onClick={() => setIsMenuOpen(false)}
+          className="text-industrial-blue hover:text-primary transition-colors"
+        >
+          {t("nav_header_2")}
+        </a>
+
+        <a
+          href="#services"
+          onClick={() => setIsMenuOpen(false)}
+          className="text-industrial-blue hover:text-primary transition-colors"
+        >
+          {t("nav_header_3")}
+        </a>
+
+        <a
+          href="#products"
+          onClick={() => setIsMenuOpen(false)}
+          className="text-industrial-blue hover:text-primary transition-colors"
+        >
+          {t("nav_header_4")}
+        </a>
+
+        <a
+          href="#team"
+          onClick={() => setIsMenuOpen(false)}
+          className="text-industrial-blue hover:text-primary transition-colors"
+        >
+          {t("nav_header_5")}
+        </a>
+
+        <a
+          href="#contact"
+          className="mt-2 text-primary"
+          onClick={() => setIsMenuOpen(false)}
+        >
+          {t("nav_header_6_highlight")}
+        </a>
+      </motion.div>
+    )}
+  </AnimatePresence>
+</>
   );
 }

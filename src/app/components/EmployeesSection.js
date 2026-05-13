@@ -7,7 +7,7 @@ export default function EmployeesSection() {
 
   return (
     <>
-      <section className="py-24 bg-gray-50 overflow-hidden">
+      <section className="py-24 bg-gray-50 overflow-hidden" id="ceo">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -69,7 +69,7 @@ export default function EmployeesSection() {
         </div>
       </section>
       <RoadMap/>
-      <section className="py-24 bg-white overflow-hidden">
+      <section className="py-24 bg-white overflow-hidden" id="team">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <motion.div

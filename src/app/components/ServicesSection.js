@@ -162,7 +162,7 @@ export default function ServicesSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="font-display text-4xl font-bold mb-6 text-primary">
-            {t("process_title")}
+            {t("service_title")}
           </h2>
           <p className="text-gray-300 text-lg">{t("serviceContent")}</p>
         </div>

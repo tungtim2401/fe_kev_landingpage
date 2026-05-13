@@ -54,7 +54,7 @@ export default function App() {
         scrolled={scrolled}
         handleScroll={handleScroll}
       />
-    
+
       {/* Hero Section */}
       <section
         className="relative h-screen overflow-hidden bg-industrial-blue"
@@ -67,9 +67,9 @@ export default function App() {
       <section className="py-10 bg-white border-b border-gray-100">
         <StatsSection />
       </section>
- 
+
       {/* About Section */}
-      <section id="nav_header_5" className="py-24 overflow-hidden bg-white">
+      <section id="About" className="py-24 overflow-hidden bg-white">
         <AboutSection />
       </section>
 
@@ -77,28 +77,27 @@ export default function App() {
 
       {/* Process Section */}
       <section
-        id="nav_header_3"
+        id="process"
         className="py-24 bg-industrial-blue text-white overflow-hidden"
       >
         <ProcessSection />
       </section>
 
       {/* Product Gallery Section */}
-      <section id="nav_header_4" className="py-24 bg-white">
+      <section id="products" className="py-24 bg-white">
         <ProductSection />
       </section>
 
       {/* Services Section */}
-      <section id="nav_header_2" className="py-24 bg-gray-50">
+      <section id="services" className="py-24 bg-gray-50">
         <ServicesSection />
       </section>
 
-      <section id="nav_header_1">
-        <EmployeesSection />
-      </section>
+      <EmployeesSection />
+
       {/* CTA Section */}
       <section
-        id="nav_header_6_highlight"
+        id="contact"
         className="py-24 bg-industrial-blue relative overflow-hidden"
       >
         <CtaSection />

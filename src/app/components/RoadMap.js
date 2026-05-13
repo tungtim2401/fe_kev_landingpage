@@ -29,6 +29,7 @@ export default function RoadMap() {
       icon: <GanttChartSquare className="w-6 h-6" />,
       color: "blue",
       images: [
+        "/images/roadmap/Phòng Quản Lí Sản Xuất/qlsx.jpg",
         "/images/roadmap/Phòng Quản Lí Sản Xuất/8 (5).png",
         "/images/roadmap/Phòng Quản Lí Sản Xuất/8 (12).png",
       ],
@@ -447,7 +448,6 @@ export default function RoadMap() {
                           </div>
                         ))}
                       </div>
-
                     </div>
                   </motion.div>
                 )}

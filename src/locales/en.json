@@ -410,5 +410,23 @@
   "sub_goal_name_9_2": "2. Cost Optimization",
   "sub_goal_desc_9_2_1": "Optimize purchasing, material, and outsourcing costs; actual costs to be at least 3% lower than estimated costs for each project.",
   "sub_goal_desc_9_2_2": "Supply materials with the best quality and competitive pricing to maximize company benefits.",
-  "goal_title": "2026 Strategic Goals"
+  "goal_title": "2026 Strategic Goals",
+
+  "process": "SEV’s Core Strength",
+  "process_cap": "Integrated Solutions from Design, Fabrication, Inspection, Installation to Repair & Maintenance",
+  "process_quote": "Bring us your engineering challenge — SEV will build the solution.",
+
+  "process_1": "Design",
+  "desc_process_1": "Utilizing PV Elite for seismic and structural analysis and HTRI for thermal design analysis, SEV provides optimized engineering solutions with consideration for manufacturability, safety, and operational efficiency.\nOur extensive experience and technical expertise enable us to support a wide range of industrial sectors.",
+
+  "process_2": "Fabrication",
+  "desc_process_2": "Led by highly experienced engineers and technicians with 15–29 years of expertise, SEV delivers high-quality and high-precision fabrication through its fully integrated in-house production system.\nSEV also possesses 29 highly skilled welders capable of handling special materials such as Carbon Steel, Stainless Steel, Duplex, Hastelloy, Titanium, Nickel, and Aluminum.",
+
+  "process_3": "Inspection",
+  "desc_process_3": "Comprehensive in-house Non-Destructive Testing (NDT) capabilities including RT, UT, PT, MT, and Videoscope inspection ensure fast and strict quality control without relying on external inspection services.\nSEV operates under strict ITP-based quality management and has extensive experience coordinating with international third-party inspection agencies such as TÜV, BV, SGS, LRQA, and Apave.",
+
+  "process_4": "Installation, Repair & Maintenance",
+  "desc_process_4": "From installation and commissioning to repair and maintenance, SEV provides total lifecycle support.\nBeyond standard repair services, we proactively analyze root causes, propose improvement solutions, and optimize equipment performance to enhance operational stability and equipment lifespan.",
+
+  "process_end": "By optimizing quality, cost, and delivery, SEV delivers high value-added solutions from engineering design to after-sales technical support."
 }

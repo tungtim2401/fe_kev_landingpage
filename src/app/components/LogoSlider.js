@@ -75,7 +75,7 @@ export default function LogoSlider() {
             key={index}
             className="!w-auto flex items-center justify-center"
           >
-            <p className="text-lg font-semibold text-[#0a2f5f]">{company}</p>
+            <p className="font-semibold text-[#0a2f5f] text-2xl">{company}</p>
           </SwiperSlide>
         ))}
       </Swiper>

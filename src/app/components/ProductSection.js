@@ -11,7 +11,7 @@ export default function ProductSection() {
   const [selectedImage, setSelectedImage] = useState(null);
   const sectionRef = useRef(null);
 
-  const products = [
+const products = [
     {
       name: t("product_1"),
       category: t("cate_product_1"),
@@ -38,8 +38,8 @@ export default function ProductSection() {
       name: t("product_4"),
       category: t("cate_product_4"),
       images: [
-        "/images/product/3/22K54 (2).png",
-        "/images/product/3/Product 3 (22K54).png",
+        "/images/product/3/22K54_2.png",
+        "/images/product/3/Product_3.png",
       ],
       specs: [t("specs_product_4_1"), t("specs_product_4_2")],
     },
@@ -48,9 +48,9 @@ export default function ProductSection() {
       category: t("cate_product_5"),
       images: [
         "/images/product/4/04.png",
-        "/images/product/4/19K21 (product 4).png",
-        "/images/product/4/Product 4 (19K21).png",
-        "/images/product/4/Product 4 (23K52).png",
+        "/images/product/4/19K21.png",
+        "/images/product/4/Product_4.png",
+        "/images/product/4/Product_5.png",
       ],
       specs: [t("specs_product_5_1"), t("specs_product_5_2")],
     },
@@ -58,10 +58,10 @@ export default function ProductSection() {
       name: t("product_6"),
       category: t("cate_product_6"),
       images: [
-        "/images/product/5/19K65 (Product 5-1).png",
-        "/images/product/5/19K65 (Product 05-2).png",
-        "/images/product/5/19K65 (Product 05-3).png",
-        "/images/product/5/19K65 (product 05).png",
+        "/images/product/5/19K65_0.png",
+        "/images/product/5/19K65_1.png",
+        "/images/product/5/19K65_2.png",
+        "/images/product/5/19K65_3.png",
       ],
       specs: [t("specs_product_6_1"), t("specs_product_6_2")],
     },
@@ -71,7 +71,7 @@ export default function ProductSection() {
       images: [
         "/images/product/6/6.png",
         "/images/product/6/06.png",
-        "/images/product/6/ảnh 06.png",
+        "/images/product/6/anh6.png",
       ],
       specs: [t("specs_product_7_1"), t("specs_product_7_2")],
     },
@@ -102,7 +102,7 @@ export default function ProductSection() {
       name: t("product_11"),
       category: t("cate_product_11"),
       images: [
-        "/images/product/10/16K60 (Product 10).png",
+        "/images/product/10/16K60_1.png",
         "/images/product/10/16K60.png",
       ],
       specs: [t("specs_product_11_1"), t("specs_product_11_2")],
@@ -111,7 +111,7 @@ export default function ProductSection() {
       name: t("product_12"),
       category: t("cate_product_12"),
       images: [
-        "/images/product/11/17K24 (2).png",
+        "/images/product/11/17K24_2.png",
         "/images/product/11/17K24.png",
       ],
       specs: [t("specs_product_12_1"), t("specs_product_12_2")],
@@ -120,7 +120,7 @@ export default function ProductSection() {
       name: t("product_13"),
       category: t("cate_product_13"),
       images: [
-        "/images/product/12/17K52 (Product 12).png",
+        "/images/product/12/17K52_1.png",
         "/images/product/12/17K52-2 (12).png",
       ],
       specs: [t("specs_product_13_1"), t("specs_product_13_2")],
@@ -129,7 +129,7 @@ export default function ProductSection() {
       name: t("product_14"),
       category: t("cate_product_14"),
       images: [
-        "/images/product/13/12K03 (13).png",
+        "/images/product/13/12K03.png",
         "/images/product/13/13.png",
       ],
       specs: [t("specs_product_14_1"), t("specs_product_14_2")],
@@ -138,7 +138,7 @@ export default function ProductSection() {
       name: t("product_15"),
       category: t("cate_product_15"),
       images: [
-        "/images/product/14/24K43 (Product 14).png",
+        "/images/product/14/24K43_1.png",
         "/images/product/14/24K43.png",
       ],
       specs: [t("specs_product_15_1"), t("specs_product_15_2")],
@@ -148,14 +148,14 @@ export default function ProductSection() {
       category: t("cate_product_16"),
       images: [
         "/images/product/15/15.png",
-        "/images/product/15/Product 15.png",
+        "/images/product/15/Product_15.png",
       ],
       specs: [t("specs_product_16_1"), t("specs_product_16_2")],
     },
     {
       name: t("product_17"),
       category: t("cate_product_17"),
-      images: ["/images/product/16/15K36 (Product 16).png"],
+      images: ["/images/product/16/15K36.png"],
       specs: [t("specs_product_17_1"), t("specs_product_17_2")],
     },
     {
@@ -166,26 +166,23 @@ export default function ProductSection() {
         "/images/product/17/ccc.png",
         "/images/product/17/gggg.png",
       ],
-      // specs: [t("specs_product_18_1"), t("specs_product_18_2")],
     },
     {
       name: t("product_19"),
       category: t("cate_product_19"),
       images: [
         "/images/product/18/hhhh.png",
-        "/images/product/18/rrrr.png",
+        "/images/product/18/rrrrr.png",
         "/images/product/18/ssss.png",
       ],
-      // specs: [t("specs_product_19_1"), t("specs_product_19_2")],
     },
     {
       name: t("product_20"),
       category: t("cate_product_20"),
       images: [
-        "/images/product/19/14K40_POT (Small)2.png",
+        "/images/product/19/14K40.png",
         "/images/product/19/19.png",
       ],
-      // specs: [t("specs_product_20_1"), t("specs_product_20_2")],
     },
     {
       name: t("product_21"),
@@ -196,9 +193,9 @@ export default function ProductSection() {
         "/images/product/20/ffff.png",
         "/images/product/20/ggfgf.png",
       ],
-      // specs: [t("specs_product_21_1"), t("specs_product_21_2")],
     },
   ];
+
   const visibleProducts = isExpanded ? products : products.slice(0, 4);
 
   const handleToggle = () => {

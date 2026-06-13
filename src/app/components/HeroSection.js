@@ -10,7 +10,7 @@ export function HeroSection() {
     {
       title: t("hero_title_1"),
       desc: t("hero_desc_1"),
-      image: "/images/hero/Bồn áp lực.png",
+      image: "/images/hero/bonapluc.png",
       tag: [t("hero_tag_1")],
     },
     {
@@ -22,7 +22,7 @@ export function HeroSection() {
     {
       title: t("hero_title_3"),
       desc: t("hero_desc_3"),
-      image: "/images/hero/Thiết bị trao đổi Nhiệt.png",
+      image: "/images/hero/traodoinhiet.png",
       tag: [
         t("hero_tag_3_1"),
         t("hero_tag_3_2"),

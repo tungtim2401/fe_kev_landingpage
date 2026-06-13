@@ -25,7 +25,7 @@ export default function ServicesSection() {
       
       icon: (
         <Image
-          src="/images/service/icon nhà máy dầu khí.png"
+          src="/images/service/icon_1.png"
           alt=""
           width={50}
           height={50}
@@ -52,7 +52,7 @@ export default function ServicesSection() {
       title: t("service_title_2"),
       icon: (
         <Image
-          src="/images/service/icon nhà máy điện.png"
+          src="/images/service/icon_2.png"
           alt=""
           width={50}
           height={50}
@@ -74,7 +74,7 @@ export default function ServicesSection() {
       title: t("service_title_3"),
       icon: (
         <Image
-          src="/images/service/nhà máy hóa chất.png"
+          src="/images/service/icon_3.png"
           alt=""
           width={50}
           height={50}
@@ -98,7 +98,7 @@ export default function ServicesSection() {
       title: t("service_title_4"),
       icon: (
         <Image
-          src="/images/service/nhà máy chế biến thực phẩm.png"
+          src="/images/service/icon_4.png"
           alt=""
           width={50}
           height={50}
@@ -120,7 +120,7 @@ export default function ServicesSection() {
       title: t("service_title_5"),
       icon: (
         <Image
-          src="/images/service/nhà máy vật chịu lửa.png"
+          src="/images/service/icon_5.png"
           alt=""
           width={50}
           height={50}
@@ -137,7 +137,7 @@ export default function ServicesSection() {
       title: t("service_title_6"),
       icon: (
         <Image
-          src="/images/service/nhà máy khí hóa lỏng.png"
+          src="/images/service/icon_6.png"
           alt=""
           width={50}
           height={50}

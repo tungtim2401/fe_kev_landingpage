@@ -53,7 +53,7 @@ export function NavHeader({
       ),
     },
   ];
-  const [lang, setLang] = useState("en");
+  const [lang, setLang] = useState("vi");
 
   const onChangeLang = async (e) => {
     i18n.changeLanguage(e.key);

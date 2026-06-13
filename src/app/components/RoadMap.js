@@ -29,9 +29,9 @@ export default function RoadMap() {
       icon: <GanttChartSquare className="w-6 h-6" />,
       color: "blue",
       images: [
-        "/images/roadmap/Phòng Quản Lí Sản Xuất/qlsx.jpg",
-        "/images/roadmap/Phòng Quản Lí Sản Xuất/8 (5).png",
-        "/images/roadmap/Phòng Quản Lí Sản Xuất/8 (12).png",
+        "/images/roadmap/phongSanXuat/qlsx.jpg",
+        "/images/roadmap/phongSanXuat/8_5.png",
+        "/images/roadmap/phongSanXuat/8_12.png",
       ],
       objectives: [
         {
@@ -62,7 +62,7 @@ export default function RoadMap() {
       icon: <Wrench className="w-6 h-6" />,
       color: "orange",
       images: [
-        "/images/roadmap/Phòng Chế tạo/z7807469404550_0e3d425597109b4dad04987d4195def2.jpg",
+        "/images/roadmap/phongCheTao/z7807469404550_0e3d425597109b4dad04987d4195def2.jpg",
       ],
       objectives: [
         {
@@ -86,7 +86,7 @@ export default function RoadMap() {
       name: t("goal_name_3"),
       icon: <SearchCheck className="w-6 h-6" />,
       color: "green",
-      images: ["/images/roadmap/Phòng QA_QC/8 (14).png"],
+      images: ["/images/roadmap/phongQA_QC/8_14.png"],
       objectives: [
         {
           title: t("sub_goal_name_3_1"),
@@ -112,15 +112,14 @@ export default function RoadMap() {
       icon: <PencilRuler className="w-6 h-6" />,
       color: "purple",
       images: [
-        "/images/roadmap/Phòng Thiết Kế/8 (11).png",
-        "/images/roadmap/Phòng Thiết Kế/8 (13).png",
+        "/images/roadmap/phongThetKe/8_1.png",
+        "/images/roadmap/phongThetKe/8_2.png",
       ],
       objectives: [
         {
           title: t("sub_goal_name_4_1"),
           items: [t("sub_goal_desc_4_1_1"), t("sub_goal_desc_4_1_2")],
         },
-
         {
           title: t("sub_goal_name_4_2"),
           items: [
@@ -144,7 +143,7 @@ export default function RoadMap() {
       name: t("goal_name_5"),
       icon: <LayoutList className="w-6 h-6" />,
       color: "gray",
-      images: ["/images/roadmap/Phòng Tổng vụ/tv.jpg"],
+      images: ["/images/roadmap/PhongTongVu/tv.jpg"],
       objectives: [
         {
           title: t("sub_goal_name_5_1"),
@@ -182,7 +181,7 @@ export default function RoadMap() {
       name: t("goal_name_7"),
       icon: <Calculator className="w-6 h-6" />,
       color: "cyan",
-      images: ["/images/roadmap/Phòng Kế toán/8 (2).png"],
+      images: ["/images/roadmap/phongKeToan/8 (2).png"],
       objectives: [
         {
           title: t("sub_goal_name_7_1"),
@@ -204,8 +203,8 @@ export default function RoadMap() {
       icon: <Globe className="w-6 h-6" />,
       color: "emerald",
       images: [
-        "/images/roadmap/Phòng Chế tạo/kd1.jpg",
-        "/images/roadmap/Phòng Chế tạo/kd2.jpg",
+        "/images/roadmap/phongCheTao/kd1.jpg",
+        "/images/roadmap/phongCheTao/kd2.jpg",
       ],
       objectives: [
         {
@@ -223,7 +222,7 @@ export default function RoadMap() {
       name: t("goal_name_9"),
       icon: <Wallet className="w-6 h-6" />,
       color: "amber",
-      images: ["/images/roadmap/Phòng Chế tạo/muahang.png"],
+      images: ["/images/roadmap/phongCheTao/muahang.png"],
       objectives: [
         {
           title: t("sub_goal_name_9_1"),

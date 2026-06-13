@@ -62,7 +62,7 @@ export default function LogoSlider() {
         slidesPerView="auto"
         spaceBetween={60}
         loop={true}
-        speed={2000}
+        speed={4000}
         autoplay={{
           delay: 0,
           disableOnInteraction: false,

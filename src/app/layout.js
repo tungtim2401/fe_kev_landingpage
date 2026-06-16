@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "SEV EV giới thiệu",
-  description: `Soltec Engineering Vietnam phiên bản mới đã chính thức khởi động.
+  title: "SEV-EV",
+  description: `SEV-EV: Soltec Engineering Vietnam phiên bản mới đã chính thức khởi động.
 
 Chúng tôi đã tái cấu trúc và xây dựng cơ sở sản xuất tại Việt Nam, nhằm cung cấp kịp thời các sản phẩm có giá trị gia tăng cao dựa trên năng lực kỹ thuật chế tạo. Đồng thời, chúng tôi cũng đã đạt được các giấy phép gia công có thể đáp ứng tiêu chuẩn toàn cầu, qua đó đáp ứng kỳ vọng của Quý khách hàng.
 

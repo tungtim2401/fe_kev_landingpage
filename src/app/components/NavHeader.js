@@ -77,22 +77,20 @@ export function NavHeader({
     className={cn(
       "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
       scrolled
-        ? "bg-white/90 backdrop-blur-md shadow-sm py-3"
-        : "bg-transparent py-4",
+        ? "bg-white/90 backdrop-blur-md shadow-sm"
+        : "bg-transparent",
     )}
   >
-    <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+    <div className="max-w-[88rem] mx-auto px-6 flex justify-between items-center">
       {/* Logo */}
-      <div className="flex items-center gap-2 shrink-0">
         <Image
           src="/images/logo_new.png"
           alt="Hero"
           width={300}
           height={50}
-          className="w-auto h-10 md:h-12 object-contain"
+          className="w-auto h-10 md:h-20 object-contain"
           priority
         />
-      </div>
 
       {/* Desktop Menu */}
       <div
@@ -151,6 +149,7 @@ export function NavHeader({
         </Link>
 
         {/* Language */}
+      </div>
         <Dropdown
           menu={{ items: items_lang, onClick: onChangeLang }}
           placement="bottomRight"
@@ -169,7 +168,6 @@ export function NavHeader({
             </span>
           </div>
         </Dropdown>
-      </div>
 
       {/* Mobile Toggle */}
       <button

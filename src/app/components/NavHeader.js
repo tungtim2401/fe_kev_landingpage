@@ -87,7 +87,7 @@ export function NavHeader({
           src="/images/logo_new.png"
           alt="Hero"
           width={300}
-          height={50}
+          height={70}
           className="w-auto h-10 md:h-20 object-contain"
           priority
         />

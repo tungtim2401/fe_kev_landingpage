@@ -1,101 +1,31 @@
-import { motion } from "framer-motion";
-import { Award } from "lucide-react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 
 export function HeroSection() {
   const { t } = useTranslation();
-  const heroSlides = [
-    {
-      title: t("hero_title_1"),
-      desc: t("hero_desc_1"),
-      image: "/images/hero/bonapluc.png",
-      tag: [t("hero_tag_1")],
-    },
-    {
-      title: t("hero_title_2"),
-      desc: t("hero_desc_2"),
-      image: "/images/hero/17K21.png",
-      tag: [t("hero_tag_2")],
-    },
-    {
-      title: t("hero_title_3"),
-      desc: t("hero_desc_3"),
-      image: "/images/hero/traodoinhiet.png",
-      tag: [
-        t("hero_tag_3_1"),
-        t("hero_tag_3_2"),
-        t("hero_tag_3_3"),
-        t("hero_tag_3_4"),
-      ],
-    },
-  ];
+  const heroContent = {
+    title: t("hero_title_1"),
+    desc: t("hero_desc_1"),
+    video: "https://video.gumlet.io/6a45183a18d11bffd5f47cd5/6a451996e81b019c97146824/download.mp4", // Update with your video path
+    tag: [t("hero_tag_1")],
+  };
+
   return (
     <>
-      <Swiper
-        modules={[Autoplay, Pagination, Navigation, EffectFade]}
-        effect="fade"
-        fadeEffect={{ crossFade: true }}
-        speed={1000}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
-        pagination={{ clickable: true, dynamicBullets: true }}
-        navigation={true}
-        loop={true}
-        className="h-full w-full hero-swiper"
-      >
-        {heroSlides.map((slide, idx) => (
-          <SwiperSlide key={idx} className="relative h-full w-full">
-            <div className="absolute inset-0 z-0">
-              <img
-                src={slide.image}
-                alt={`Industrial Slide ${idx + 1}`}
-                className="w-full h-full object-cover opacity-80 scale-105"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/20 to-transparent" />
-            </div>
-
-            <div className="relative z-10 h-full max-w-7xl mx-auto px-6 flex items-center">
-              <div className="grid md:grid-cols-2 gap-12 items-center w-full">
-                <motion.div
-                  initial={{ opacity: 0, x: -50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.8 }}
-                >
-                  <div className="flex gap-4 flex-wrap">
-                    {slide.tag.map((item) => (
-                      <div
-                        key={item}
-                        className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold mb-6"
-                      >
-                        <Award size={16} />
-                        <span>{item}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <h1
-                    className="font-display text-5xl md:text-7xl font-bold text-gray-200 leading-[1.1] mb-6 whitespace-pre-line"
-                    dangerouslySetInnerHTML={{ __html: slide.title }}
-                  />
-                  <p className="text-lg text-gray-200 mb-10 max-w-lg leading-relaxed whitespace-pre-line">
-                    {slide.desc}
-                  </p>
-                  {/* <div className="flex flex-wrap gap-4">
-                    <button className="px-8 py-4 bg-primary text-white font-bold rounded-xl hover:bg-orange-600 transition-all flex items-center gap-2 group shadow-xl shadow-orange-500/30">
-                     {t(view)}
-                      <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-                    </button>
-                    <button className="px-8 py-4 bg-white/10 text-white font-bold rounded-xl hover:bg-white/20 transition-all backdrop-blur-sm border border-white/20">
-                      Tư Vấn Kỹ Thuật
-                    </button>
-                  </div> */}
-                </motion.div>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className="relative h-full w-full hero-video">
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <video
+            autoPlay
+            loop
+            muted
+            className="w-full h-full object-cover opacity-80 scale-105"
+          >
+            <source src={heroContent.video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          {/* <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/20 to-transparent" /> */}
+        </div>
+      </div>
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-white/30 z-20">

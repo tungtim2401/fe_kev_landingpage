@@ -18,6 +18,7 @@ export function HeroSection() {
             autoPlay
             loop
             muted
+            playsInline
             className="w-full h-screen object-cover"
           >
             <source src={heroContent.video} type="video/mp4" />

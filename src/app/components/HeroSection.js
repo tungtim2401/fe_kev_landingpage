@@ -23,7 +23,7 @@ export function HeroSection() {
             <source src={heroContent.video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          {/* <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/20 to-transparent" /> */}
+          <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/20 to-transparent" />
         </div>
       </div>
 

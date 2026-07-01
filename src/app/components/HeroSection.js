@@ -18,7 +18,7 @@ export function HeroSection() {
             autoPlay
             loop
             muted
-            className="w-full h-full object-cover opacity-80 scale-105"
+            className="w-full h-screen object-cover"
           >
             <source src={heroContent.video} type="video/mp4" />
             Your browser does not support the video tag.

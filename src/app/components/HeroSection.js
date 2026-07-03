@@ -5,7 +5,7 @@ export function HeroSection() {
   const heroContent = {
     title: t("hero_title_1"),
     desc: t("hero_desc_1"),
-    video: "https://video.gumlet.io/6a45183a18d11bffd5f47cd5/6a451996e81b019c97146824/download.mp4", // Update with your video path
+    video: "https://video.gumlet.io/6a45183a18d11bffd5f47cd5/6a479d0618d11bffd53ca01c/download.mp4", // Update with your video path
     tag: [t("hero_tag_1")],
   };
 
